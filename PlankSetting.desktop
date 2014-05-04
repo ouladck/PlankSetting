@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=PlankSetting
+Name[ar]=إعدادات بلانك
+Name[fr]=Disposition du Plank
+Type=Application
+Exec=planksetting
+Terminal=false
+Icon=planksetting
+Comment=A stupid application to customize plank dock easily.
+Comment[ar]=تطبيق غبي لتخصيص شريط بلانك بسهولة.
+Comment[fr]=Une stupide application pour personnaliser facilement le quai plank.
+NoDisplay=false
+Categories=Utility;
