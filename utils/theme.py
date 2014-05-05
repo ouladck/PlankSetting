@@ -24,8 +24,8 @@ class Theme:
 		self.cellrenderertext = Gtk.CellRendererText()
 		self.treeviewcolumn.pack_start(self.cellrenderertext, True)
 		self.treeviewcolumn.add_attribute(self.cellrenderertext, "text", 0)
-		self.selection = self.treeview.get_selection()
-		self.selection.connect("changed", self.selected)
+		self.select = self.treeview.get_selection()
+		self.select.connect("changed", self.on_tree_selection_changed)
 		
 		
 		self.scroll.add(self.treeview)
@@ -40,5 +40,8 @@ class Theme:
 	def delfunc(self, widget):
 		pass
 	
-	def selected(self, selection):
-		write_func(read_func(self.setting), self.setting, "Theme", selection.get_selected())
+		
+	def on_tree_selection_changed(self, selection):
+		model, treeiter = selection.get_selected()
+		if treeiter != None:
+			write_func(read_func(self.setting), self.setting, "Theme", model[treeiter][0])
