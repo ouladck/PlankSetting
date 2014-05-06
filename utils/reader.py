@@ -9,5 +9,3 @@ def read_func(f):
 		for a in ls:
 			lst.append(a)
 	return lst
-
-#os.path.expanduser("~") + "/.config/plank/dock1/settings"

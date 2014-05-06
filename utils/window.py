@@ -62,41 +62,31 @@ class Window:
 		self.read_file()#
 		#################
 		
-		self.table = Gtk.Layout()
-		#1
-		self.table.put(self.label1, 10, 30)
-		self.table.put(self.switch, 450, 30)
-		#2
-		self.table.put(self.label2, 10, 60)
-		self.table.put(self.spinbutton, 450, 60)
-		#3
-		self.table.put(self.label3, 10, 90)
-		self.table.put(self.display[0], 450, 90)
-		#4
-		self.table.put(self.label4, 10, 120)
-		self.table.put(self.spintime, 450, 120)
-		#5
-		self.table.put(self.label5, 10, 150)
-		#6
-		self.table.put(self.label6, 10, 180)
-		self.table.put(self.pos[0], 450, 180)
-		#7
-		self.table.put(self.label7, 10, 210)
-		self.table.put(self.offset, 450, 210)
-		#8
-		self.table.put(self.label8, 10, 240)
-		self.table.put(self.alignment[0], 450, 240)
-		#9
-		self.table.put(self.label9, 10, 270)
-		self.table.put(self.itemalig[0], 450, 270)
-		#10
-		self.table.put(self.label10, 10, 300)
-		self.table.put(self.drag, 450, 300)
+		self.table = Gtk.VBox()
+		
+		
+		self.table.pack_start(self.fbox(self.label1, self.switch), False, False, 5)
+		self.table.pack_start(self.fbox(self.label2, self.spinbutton), False, False, 5)
+		self.table.pack_start(self.fbox(self.label3, self.display[0]), False, False, 5)
+		self.table.pack_start(self.fbox(self.label4, self.spintime), False, False, 5)
+		self.table.pack_start(self.fbox(self.label5), False, False, 5)
+		self.table.pack_start(self.fbox(self.label6, self.pos[0]), False, False, 5)
+		self.table.pack_start(self.fbox(self.label7, self.offset), False, False, 5)
+		self.table.pack_start(self.fbox(self.label8, self.alignment[0]), False, False, 5)
+		self.table.pack_start(self.fbox(self.label9, self.itemalig[0]), False, False, 5)
+		self.table.pack_start(self.fbox(self.label10, self.drag), False, False, 5)
 		
 		self.scroll.add(self.table)
 	
 	"""Methods"""
 	#Views
+	def fbox(self, widget1, widget2=Gtk.Label("Not Available now!")):
+		h = Gtk.HBox()
+		h.pack_start(widget1, False, False, 5)
+		h.pack_end(widget2, False, False, 15)
+		return h
+	
+	
 	def radios(self, arg1, arg2, arg3, arg4, nmbr):
 		def toggled(widget):
 			value = 0

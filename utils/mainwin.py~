@@ -17,7 +17,7 @@ class Mainwin():
 		about.set_version(g("0.1.1"))
 		about.set_comments(g("A stupid application to customize plank dock easily."))
 		about.set_copyright("Copyright © 2014 Karim Oulad Chalha")
-		about.set_website("http://karim88.github.io/PlankSetting/")
+		about.set_website("htpp://ubuntu-sla.blog.com")
 		about.set_website_label(g("PlankSetting website"))
 		about.set_authors(["Karim Oluad Chalha"])
 		about.set_license(g("GPL v3"))
