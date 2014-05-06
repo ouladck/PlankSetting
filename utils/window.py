@@ -181,4 +181,3 @@ class Window:
 	
 	def main(self):
 		Gtk.main()
-

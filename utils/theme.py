@@ -45,4 +45,3 @@ class Theme:
 		model, treeiter = selection.get_selected()
 		if treeiter != None:
 			write_func(read_func(self.setting), self.setting, "Theme", model[treeiter][0])
-
