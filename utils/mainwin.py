@@ -21,7 +21,7 @@ class Mainwin():
 		about.set_website_label(g("PlankSetting website"))
 		about.set_authors(["Karim Oluad Chalha"])
 		about.set_license(g("GPL v3"))
-		about.set_translator_credits("translator-credits")
+		about.set_translator_credits(g("translator-credits"))
 		
 		about.run()
 		about.destroy()
@@ -56,7 +56,7 @@ class Mainwin():
 		self.tab.append_page(self.ins.scroll, Gtk.Label(g("General")))
 		self.tab.append_page(self.themes.box, Gtk.Label(g("Themes")))
 		
-		self.box.pack_start(self.menu, False, False, 5)
+		self.box.pack_start(self.menu, False, False, 0)
 		self.box.pack_end(self.tab, True, True, 5)
 		
 		self.win.add(self.box)

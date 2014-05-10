@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-09 19:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Main.py:27
+msgid "Choose the dock:"
+msgstr ""
+
+#: utils/mainwin.py:14 utils/mainwin.py:32 utils/mainwin.py:44
+msgid "PlankSetting"
+msgstr ""
+
+#: utils/mainwin.py:17
+msgid "0.1.1"
+msgstr ""
+
+#: utils/mainwin.py:18
+msgid "A stupid application to customize plank dock easily."
+msgstr ""
+
+#: utils/mainwin.py:21
+msgid "PlankSetting website"
+msgstr ""
+
+#: utils/mainwin.py:23
+msgid "GPL v3"
+msgstr ""
+
+#: utils/mainwin.py:24
+msgid "translator-credits"
+msgstr ""
+
+#: utils/mainwin.py:48
+msgid "About"
+msgstr ""
+
+#: utils/mainwin.py:51
+msgid "Exit"
+msgstr ""
+
+#: utils/mainwin.py:56
+msgid "General"
+msgstr ""
+
+#: utils/mainwin.py:57 utils/theme.py:22
+msgid "Themes"
+msgstr ""
+
+#: utils/theme.py:34
+msgid "Add a theme"
+msgstr ""
+
+#: utils/theme.py:37
+msgid "Remove a theme"
+msgstr ""
+
+#: utils/window.py:15
+msgid "Show only windows of the current workspace."
+msgstr ""
+
+#: utils/window.py:20
+msgid "The size of dock icons (in pixels)."
+msgstr ""
+
+#: utils/window.py:26
+msgid "The display of the dock."
+msgstr ""
+
+#: utils/window.py:27
+msgid "Don't hide"
+msgstr ""
+
+#: utils/window.py:27 utils/window.py:96
+msgid "Intelligently hide"
+msgstr ""
+
+#: utils/window.py:27 utils/window.py:98
+msgid "Auto hide"
+msgstr ""
+
+#: utils/window.py:27 utils/window.py:100
+msgid "Dodge"
+msgstr ""
+
+#: utils/window.py:30
+msgid "Time (in ms) to wait before unhiding the dock."
+msgstr ""
+
+#: utils/window.py:36
+msgid "The monitor number for the dock."
+msgstr ""
+
+#: utils/window.py:39
+msgid "The position for the dock on the monitor."
+msgstr ""
+
+#: utils/window.py:40 utils/window.py:94
+msgid "Left"
+msgstr ""
+
+#: utils/window.py:40 utils/window.py:96
+msgid "Right"
+msgstr ""
+
+#: utils/window.py:40 utils/window.py:98
+msgid "Top"
+msgstr ""
+
+#: utils/window.py:40 utils/window.py:100
+msgid "Bottom"
+msgstr ""
+
+#: utils/window.py:43
+msgid "The dock's position offset from center (in percent)."
+msgstr ""
+
+#: utils/window.py:49
+msgid "The alignment for the dock on the monitor's edge."
+msgstr ""
+
+#: utils/window.py:50 utils/window.py:54 utils/window.py:94
+msgid "Panel mode"
+msgstr ""
+
+#: utils/window.py:50 utils/window.py:54 utils/window.py:96
+msgid "Right aligned"
+msgstr ""
+
+#: utils/window.py:50 utils/window.py:54 utils/window.py:98
+msgid "Left aligned"
+msgstr ""
+
+#: utils/window.py:50 utils/window.py:54 utils/window.py:100
+msgid "Centered"
+msgstr ""
+
+#: utils/window.py:53
+msgid "The alignment of the items in this dock."
+msgstr ""
+
+#: utils/window.py:57
+msgid "Prevent drag'n'drop actions and lock items on the dock."
+msgstr ""
+
+#: utils/window.py:94
+msgid "Hide"
+msgstr ""
