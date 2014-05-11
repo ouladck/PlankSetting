@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-09 19:00+0100\n"
+"POT-Creation-Date: 2014-05-11 12:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,8 +65,28 @@ msgstr ""
 msgid "Add a theme"
 msgstr ""
 
-#: utils/theme.py:37
+#: utils/theme.py:38
 msgid "Remove a theme"
+msgstr ""
+
+#: utils/theme.py:67
+msgid ""
+"You dont have a UNRAR program\n"
+"Please make sure to install it before!"
+msgstr ""
+
+#: utils/theme.py:95
+msgid ""
+"You dont have a UNZIP program\n"
+"Please make sure to install it before!"
+msgstr ""
+
+#: utils/theme.py:100
+msgid "The theme format is not supported!"
+msgstr ""
+
+#: utils/theme.py:112
+msgid "Do you really wanna remove the theme {} ?"
 msgstr ""
 
 #: utils/window.py:15
