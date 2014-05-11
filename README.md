@@ -3,6 +3,18 @@ PlankSetting
 
 Application to customize Plank dock
 
+Dependence
+==========
+
+unrar
+
+unzip
+
+python3
+
+libgtk-3-0
+
+
 Install
 =======
 
