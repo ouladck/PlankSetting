@@ -2,6 +2,7 @@
 
 sudo cp -v PlankSetting.desktop /usr/share/applications
 sudo cp -v planksetting /usr/bin
+sudo cp -v planksetting.dockitem ~/.config/plank/dock1
 sudo cp -v pixmaps/*.png /usr/share/pixmaps
 sudo cp -r -v locale /usr/share
 sudo mv -R pixmaps /tmp
