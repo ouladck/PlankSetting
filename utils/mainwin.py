@@ -19,7 +19,7 @@ class Mainwin():
 		about.set_copyright("Copyright © 2014 Karim Oulad Chalha")
 		about.set_website("http://karim88.github.io/PlankSetting/")
 		about.set_website_label(g("PlankSetting website"))
-		about.set_authors(["Karim Oluad Chalha"])
+		about.set_authors(["Karim Oulad Chalha"])
 		about.set_license(g("GPL v3"))
 		about.set_translator_credits(g("translator-credits"))
 		
@@ -45,13 +45,16 @@ class Mainwin():
 		self.menu.append(self.plankmenu)
 		self.m = Gtk.Menu()
 		self.plankmenu.set_submenu(self.m)
+		""" About """
 		self.abt = Gtk.MenuItem(g("About"))
 		self.abt.connect('activate', self.about)
 		self.m.append(self.abt)
+		""" Exit """
 		self.xit = Gtk.MenuItem(g("Exit"))
 		self.xit.connect('activate', self.destroy)
 		self.m.append(self.xit)
 		
+		""" Tabs """
 		self.tab = Gtk.Notebook()
 		self.tab.append_page(self.ins.scroll, Gtk.Label(g("General")))
 		self.tab.append_page(self.themes.box, Gtk.Label(g("Themes")))
