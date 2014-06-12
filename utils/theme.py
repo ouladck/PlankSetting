@@ -10,6 +10,7 @@ from utils.rarfile import *
 class Theme:
 	def __init__(self, setting_path):
 		self.theme_path = os.path.expanduser("~") + "/.local/share/plank/themes"
+		self.sys_theme_path = "/usr/share/plank/themes"
 		self.setting = setting_path + "/settings"
 		self.win = Gtk.Window()
 		self.scroll = Gtk.ScrolledWindow()
@@ -49,6 +50,9 @@ class Theme:
 		self.liststore.clear()
 		for a in os.listdir(self.theme_path):
 			widget.append([a])
+		for b in os.listdir(self.sys_theme_path):
+			if(b not in os.listdir(self.theme_path)):
+				widget.append([b])
 	
 	def addfunc(self, widget):
 		f = widget.get_filename()
@@ -108,12 +112,15 @@ class Theme:
 	
 	def delfunc(self, widget):
 		model, treeiter = self.select.get_selected()
-		rmtheme = self.theme_path+'/'+model[treeiter][0]
-		msg = Gtk.MessageDialog(None, 0, Gtk.MessageType.WARNING, Gtk.ButtonsType.OK_CANCEL, g("Do you really wanna remove the theme {} ?").format(model[treeiter][0]))
-		resp = msg.run()
-		if resp == Gtk.ResponseType.OK:
-			shutil.rmtree(rmtheme)
-		msg.destroy()
+		try:
+			rmtheme = self.theme_path+'/'+model[treeiter][0]
+			msg = Gtk.MessageDialog(None, 0, Gtk.MessageType.WARNING, Gtk.ButtonsType.OK_CANCEL, g("Do you really wanna remove the theme {} ?").format(model[treeiter][0]))
+			resp = msg.run()
+			if resp == Gtk.ResponseType.OK:
+				shutil.rmtree(rmtheme)
+			msg.destroy()
+		except:
+			pass
 		self.refresh(self.liststore)
 
 		
