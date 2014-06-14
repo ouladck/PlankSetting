@@ -14,7 +14,7 @@ class Mainwin():
 		about.set_program_name(g("PlankSetting"))
 		about.set_logo(GdkPixbuf.Pixbuf.new_from_file("/usr/share/pixmaps/planksetting.png"))
 		about.set_icon(GdkPixbuf.Pixbuf.new_from_file("/usr/share/pixmaps/planksetting_logo.png"))
-		about.set_version(g("0.1.1"))
+		about.set_version(g("0.1.2"))
 		about.set_comments(g("A stupid application to customize plank dock easily."))
 		about.set_copyright("Copyright © 2014 Karim Oulad Chalha")
 		about.set_website("http://karim88.github.io/PlankSetting/")
@@ -29,8 +29,13 @@ class Mainwin():
 	
 	def __init__(self, setting_path):
 		self.win = Gtk.Window()
-		self.win.set_title(g("PlankSetting"))
 		self.win.set_default_size(800,500)
+		
+		#HeadBar
+		self.head = Gtk.HeaderBar()
+		self.head.props.show_close_button = True
+		self.head.props.title = g("Planketting")
+		self.win.set_titlebar(self.head)
 		
 		
 		#instance
@@ -41,7 +46,7 @@ class Mainwin():
 		self.menu = Gtk.MenuBar()
 		self.menu.set_hexpand(True)
 		
-		self.plankmenu = Gtk.MenuItem(g("PlankSetting"))
+		self.plankmenu = Gtk.MenuItem(g("Menu"))
 		self.menu.append(self.plankmenu)
 		self.m = Gtk.Menu()
 		self.plankmenu.set_submenu(self.m)
@@ -59,9 +64,10 @@ class Mainwin():
 		self.tab.append_page(self.ins.scroll, Gtk.Label(g("General")))
 		self.tab.append_page(self.themes.box, Gtk.Label(g("Themes")))
 		
-		self.box.pack_start(self.menu, False, False, 0)
+		self.head.pack_start(self.menu)
 		self.box.pack_end(self.tab, True, True, 5)
 		
+		#self.win = HeaderBarWindow()
 		self.win.add(self.box)
 		self.win.show_all()
 		self.win.connect("destroy", self.destroy)

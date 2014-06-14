@@ -1,1 +1,6 @@
-0.1 - add logo
+[0.1.1]
+ - add logo
+
+[0.1.2]
+ - fixing theme tab
+ - adding headbar instead of native window manager
