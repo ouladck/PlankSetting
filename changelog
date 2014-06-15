@@ -4,3 +4,7 @@
 [0.1.2]
  - fixing theme tab
  - adding headbar instead of native window manager
+ - updating Arabic translation
+ - Adding French translation
+ - allowing delete themes from system themes location
+ 

@@ -1,222 +1,223 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
+# Translators:
+# Karim Oulad Chalha <herr.linux88@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: PlankSetting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-14 13:36+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-06-14 13:01+0000\n"
+"Last-Translator: Karim Oulad Chalha <herr.linux88@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/planksetting/language/ar/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: Main.py:27
 msgid "Choose the dock:"
-msgstr ""
+msgstr "إختر الشريط:"
 
 #: utils/mainwin.py:14 utils/mainwin.py:37
 msgid "PlankSetting"
-msgstr ""
+msgstr "إعدادات بلانك"
 
 #: utils/mainwin.py:17
 msgid "0.1.2"
-msgstr ""
+msgstr "0.1.2"
 
 #: utils/mainwin.py:18
 msgid "A stupid application to customize plank dock easily."
-msgstr ""
+msgstr "تطبيق غبي لتخصيص شريط بلانك بسهولة."
 
 #: utils/mainwin.py:21
 msgid "PlankSetting website"
-msgstr ""
+msgstr "الموقع"
 
 #: utils/mainwin.py:23
 msgid "GPL v3"
-msgstr ""
+msgstr "رخصة جنو العمومية إصدار 3"
 
 #: utils/mainwin.py:24
 msgid "translator-credits"
-msgstr ""
+msgstr "كريم أولاد الشلحة"
 
 #: utils/mainwin.py:49
 msgid "Menu"
-msgstr ""
+msgstr "قائمة"
 
 #: utils/mainwin.py:54
 msgid "About"
-msgstr ""
+msgstr "عن"
 
 #: utils/mainwin.py:58
 msgid "Exit"
-msgstr ""
+msgstr "خروج"
 
 #: utils/mainwin.py:64
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: utils/mainwin.py:65 utils/theme.py:23
 msgid "Themes"
-msgstr ""
+msgstr "سمات"
 
 #: utils/theme.py:35
 msgid "Add a theme"
-msgstr ""
+msgstr "أضف سمة"
 
 #: utils/theme.py:39
 msgid "Remove a theme"
-msgstr ""
+msgstr "حذف سمة"
 
 #: utils/theme.py:71
 msgid ""
 "You dont have a UNRAR program\n"
 "Please make sure to install it before!"
-msgstr ""
+msgstr "لا تتوفر على برنامج فك ضغط RAR\nالمرجوا تثبيته قبل البدء!"
 
 #: utils/theme.py:99
 msgid ""
 "You dont have a UNZIP program\n"
 "Please make sure to install it before!"
-msgstr ""
+msgstr "لا تتوفر على برنامج فك ضغط ZIP\nالمرجوا تثبيته قبل البدء!"
 
 #: utils/theme.py:104
 msgid "The theme format is not supported!"
-msgstr ""
+msgstr "نسق السمة غير مدعومة"
 
 #: utils/theme.py:117
 msgid "Do you really wanna remove the theme {} ?"
-msgstr ""
+msgstr "هل تود حقا حذف السمة {} ؟"
 
 #: utils/window.py:15
 msgid "Show windows"
-msgstr ""
+msgstr "عرض النوافذ"
 
 #: utils/window.py:16
 msgid "Show only windows of the current workspace."
-msgstr ""
+msgstr "عرض نوافذ مساحة العمل الحالية فقط."
 
 #: utils/window.py:21
 msgid "Dock size"
-msgstr ""
+msgstr "حجم الشريط"
 
 #: utils/window.py:22
 msgid "The size of dock icons (in pixels)."
-msgstr ""
+msgstr "حجم أيقونات الشريط (بـ بكسل)."
 
 #: utils/window.py:28
 msgid "Display mode"
-msgstr ""
+msgstr "نمط العرض"
 
 #: utils/window.py:29
 msgid "The display of the dock."
-msgstr ""
+msgstr "عرض الشريط."
 
 #: utils/window.py:30
 msgid "Don't hide"
-msgstr ""
+msgstr "عدم الإخفاء"
 
 #: utils/window.py:30 utils/window.py:105
 msgid "Intelligently hide"
-msgstr ""
+msgstr "إخفاء الذكي"
 
 #: utils/window.py:30 utils/window.py:107
 msgid "Auto hide"
-msgstr ""
+msgstr "إخفاء الألي"
 
 #: utils/window.py:30 utils/window.py:109
 msgid "Dodge"
-msgstr ""
+msgstr "مراوغة"
 
 #: utils/window.py:33
 msgid "Waiting time"
-msgstr ""
+msgstr "وقت الإنتظار"
 
 #: utils/window.py:34
 msgid "Time (in ms) to wait before unhiding the dock."
-msgstr ""
+msgstr "وقت الانتظار (بـ مث) قبل إظهار الشريط."
 
 #: utils/window.py:40
 msgid "The monitor number for the dock."
-msgstr ""
+msgstr "رقم مراقب الشريط."
 
 #: utils/window.py:43
 msgid "Position"
-msgstr ""
+msgstr "موضع"
 
 #: utils/window.py:44
 msgid "The position for the dock on the monitor."
-msgstr ""
+msgstr "موضع الشريط في الشاشة."
 
 #: utils/window.py:45 utils/window.py:103
 msgid "Left"
-msgstr ""
+msgstr "يسار"
 
 #: utils/window.py:45 utils/window.py:105
 msgid "Right"
-msgstr ""
+msgstr "يمين"
 
 #: utils/window.py:45 utils/window.py:107
 msgid "Top"
-msgstr ""
+msgstr "أعلى"
 
 #: utils/window.py:45 utils/window.py:109
 msgid "Bottom"
-msgstr ""
+msgstr "أسفل"
 
 #: utils/window.py:48
 msgid "Offset"
-msgstr ""
+msgstr "إزاحة"
 
 #: utils/window.py:49
 msgid "The dock's position offset from center (in percent)."
-msgstr ""
+msgstr "تعديل موقع الشريط من المركز (بـ النسبة%)."
 
 #: utils/window.py:55
 msgid "Alignment"
-msgstr ""
+msgstr "إصطفاف"
 
 #: utils/window.py:56
 msgid "The alignment for the dock on the monitor's edge."
-msgstr ""
+msgstr "اصطفاف الشريط على حواف الشاشة."
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:103
 msgid "Panel mode"
-msgstr ""
+msgstr "نمط الشريط"
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:105
 msgid "Right aligned"
-msgstr ""
+msgstr "اصطفاف يمينا"
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:107
 msgid "Left aligned"
-msgstr ""
+msgstr "اصطفاف يسارا"
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:109
 msgid "Centered"
-msgstr ""
+msgstr "توسيط"
 
 #: utils/window.py:60
 msgid "Item alignment"
-msgstr ""
+msgstr "إصطفاف العناصر"
 
 #: utils/window.py:61
 msgid "The alignment of the items in this dock."
-msgstr ""
+msgstr "اصطفاف العناصر في الشريط."
 
 #: utils/window.py:65
 msgid "Drag'n'drop"
-msgstr ""
+msgstr "سحب و نقل"
 
 #: utils/window.py:66
 msgid "Prevent drag'n'drop actions and lock items on the dock."
-msgstr ""
+msgstr "منع إجراءات سحب و نقل العناصر في الشريط."
 
 #: utils/window.py:103
 msgid "Hide"
-msgstr ""
+msgstr "إخفاء"

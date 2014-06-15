@@ -30,7 +30,7 @@ class Theme:
 		self.select.connect("changed", self.on_tree_selection_changed)
 		
 		self.button = Gtk.ButtonBox()
-		self.button.set_spacing(5)
+		self.button.set_spacing(15)
 		self.b = Gtk.FileChooserButton()
 		self.b.set_tooltip_text(g("Add a theme"))
 		self.b.connect('file-set', self.addfunc)
@@ -112,12 +112,20 @@ class Theme:
 	
 	def delfunc(self, widget):
 		model, treeiter = self.select.get_selected()
+		sys = False
 		try:
-			rmtheme = self.theme_path+'/'+model[treeiter][0]
+			if model[treeiter][0] in os.listdir(self.theme_path):
+				rmtheme = self.theme_path+'/'+model[treeiter][0]
+			else:
+				rmtheme = self.sys_theme_path+'/'+model[treeiter][0]
+				sys = True
 			msg = Gtk.MessageDialog(None, 0, Gtk.MessageType.WARNING, Gtk.ButtonsType.OK_CANCEL, g("Do you really wanna remove the theme {} ?").format(model[treeiter][0]))
 			resp = msg.run()
 			if resp == Gtk.ResponseType.OK:
-				shutil.rmtree(rmtheme)
+				if sys:
+					os.system("gksu 'rm -r {0}'".format(rmtheme))
+				else:
+					shutil.rmtree(rmtheme)
 			msg.destroy()
 		except:
 			pass

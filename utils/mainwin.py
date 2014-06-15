@@ -16,7 +16,7 @@ class Mainwin():
 		about.set_icon(GdkPixbuf.Pixbuf.new_from_file("/usr/share/pixmaps/planksetting_logo.png"))
 		about.set_version(g("0.1.2"))
 		about.set_comments(g("A stupid application to customize plank dock easily."))
-		about.set_copyright("Copyright © 2014 Karim Oulad Chalha")
+		about.set_copyright("Copyright (c) 2014 Karim Oulad Chalha")
 		about.set_website("http://karim88.github.io/PlankSetting/")
 		about.set_website_label(g("PlankSetting website"))
 		about.set_authors(["Karim Oulad Chalha"])
@@ -34,7 +34,7 @@ class Mainwin():
 		#HeadBar
 		self.head = Gtk.HeaderBar()
 		self.head.props.show_close_button = True
-		self.head.props.title = g("Planketting")
+		self.head.props.title = g("PlankSetting")
 		self.win.set_titlebar(self.head)
 		
 		
@@ -65,7 +65,7 @@ class Mainwin():
 		self.tab.append_page(self.themes.box, Gtk.Label(g("Themes")))
 		
 		self.head.pack_start(self.menu)
-		self.box.pack_end(self.tab, True, True, 5)
+		self.box.pack_end(self.tab, True, True, 25)
 		
 		#self.win = HeaderBarWindow()
 		self.win.add(self.box)
