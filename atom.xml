@@ -4,7 +4,7 @@
  <title>PlankSetting</title>
  <link href="http://karim88.github.io/PlankSetting//atom.xml" rel="self"/>
  <link href="http://karim88.github.io/PlankSetting//"/>
- <updated>2014-07-09T04:13:52+00:00</updated>
+ <updated>2014-07-09T04:21:41+00:00</updated>
  <id>http://karim88.github.io/PlankSetting/</id>
  <author>
    <name>karim Oulad Chalha</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Welcome</title>
-   <link href="http://karim88.github.io/PlankSetting//blog/Home"/>
+   <link href="http://karim88.github.io/PlankSetting//PlankSetting/blog/Home"/>
    <updated>2014-07-08T00:00:00+00:00</updated>
-   <id>http://karim88.github.io/PlankSetting//blog/Home</id>
+   <id>http://karim88.github.io/PlankSetting//PlankSetting/blog/Home</id>
    <content type="html">&lt;h3&gt;PlankSetting.&lt;/h3&gt;
 
 &lt;p&gt;This is a simple application that allow users to customize plank dock easily,&lt;/p&gt;
