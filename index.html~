@@ -3,7 +3,7 @@
 <head>
 	<link href="http://gmpg.org/xfn/11" rel="profile">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>How to Install &middot; PlankSetting</title>
+	<title>PlankSetting &middot; blog</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
@@ -36,7 +36,7 @@
 <div class="menu-content">
 	<div class="menu" style="background-color: #777; z-index: -1;"></div>
 	
-	<a href="/">Home</a><br>
+	<a href="PlankSetting/">Home</a><br>
 	
 	<a href="/PlankSetting/install">Install</a><br>
 	
@@ -58,93 +58,28 @@
 </div>
 	<div id="home-title">
 		<a href="http://karim88.github.io/PlankSetting">
-			<img src="PlankSetting/assets/images/icon.png" class="site-icon-page">
+			<img src="PlankSetting/assets/images/icon.png" class="site-icon">
 		</a>
 	</div>
-	<div id="post-info" style="bottom: 30px; text-align: center; line-height: 45px;">
-		<h1>How to Install</h1>
-	</div>
 </header>
-<script src="https://apis.google.com/js/plusone.js">
-</script>
-
-<div id="article">
-	<p>to install <code>PlankSetting</code>, You should</p>
-
-<h1>1 - Download dependences</h1>
-
-<p>Plank 0.6.0<br>
-Gtk 3.x<br>
-Python 3.x<br>
-unzip &amp; unrar programs  </p>
-
-<p>you can do that by:</p>
-
-<h4>Ubuntu &amp; Debian</h4>
-
-<blockquote>
-<p>sudo apt-get install unrar unzip python3 libgtk-3-0  </p>
-</blockquote>
-
-<h4>Arch Linux</h4>
-
-<blockquote>
-<p>sudo pacman -S unrar unzip python3 gtk3  </p>
-</blockquote>
-
-<h4>Suse</h4>
-
-<blockquote>
-<p>sudo zypper install unrar unzip python3 gtk3  </p>
-</blockquote>
-
-<h4>Fedora</h4>
-
-<blockquote>
-<p>sudo yum install unrar unzip python3 gtk3</p>
-</blockquote>
-
-<p>Note:
-You need <a href="https://launchpad.net/plank">Plank</a> to be installed first.  </p>
-
-<hr>
-
-<h1>2 - Download the code source</h1>
-
-<p><a href="https://github.com/karim88/PlankSetting/archive/master.zip">here</a>  </p>
-
-<p>or type in command line  </p>
-
-<blockquote>
-<p>wget https://github.com/karim88/PlankSetting/archive/master.zip  </p>
-</blockquote>
-
-<h1>3 - Install</h1>
-
-<blockquote>
-<p>unzip master.zip
-cd PlankSetting-master/<br>
-sudo ./install.sh  </p>
-</blockquote>
-
-<h1>Uninstall</h1>
-
-<p>if you wish to uninstall <code>PlankSetting</code>, type in terminal:  </p>
-
-<blockquote>
-<p>cd PlankSetting-master/<br>
-chmod +x uninstall.sh<br>
-sudo ./uninstall.sh  </p>
-</blockquote>
-
-<hr>
-
-	<br>
-	<div class="fb-comments" data-href="http://karim88.github.io/PlankSetting" data-numposts="5" data-colorscheme="light"></div>
+<div id="post-list">
+	
+		<div>
+			<span class="post-date">08 July 2014</span>
+			<h1><a href="/PlankSetting/blog/Home">Welcome</a></h1>
+			<p class="post-description">PlankSetting. This is a simple application that allow users to customize plank dock easily, Features: Customizing the behavior of the dock. Changing the dock theme. Adding new themes. Removing the undesirable themes. Note: You need Plank to be installed first. Dependence Plank 0.6.0 Gtk 3.x Python 3.x unzip &amp; unrar...</p>
+		</div>
+		<br>
+	
 </div>
-
+<nav class="pagination" role="navigation">
+	
+	<span class="page-number">Page 1 of 1</span>
+	
+</nav>
 <footer class="clean" style="background-image: url(PlankSetting/assets/images/cover.jpg); background-position: bottom; height: 60px;">
 	<p class="copyright">&copy;2014, <a href="http://karim88.github.io" target="_blank">Karim Oulad Chalha</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Some rights reserved</a>.</p>
 </footer>
+
 </body>
 </html>
