@@ -1,0 +1,57 @@
+
+.hom, .install{
+	background: #fff;
+	color: #428bca;
+}
+.install{
+	padding: 90px;
+}
+
+.about, .contribute{
+	background: #428bca;
+	color: #fff;
+	padding: 90px;
+}
+.nav{
+	background: #fff;
+}
+.row{
+	height: 100%;
+}
+
+body{
+	position: relative;
+	font-size: 100px;
+}
+
+.bluetitle{
+	color: #428bca;
+}
+
+.jumbotron{
+	text-align: center;
+}
+
+.socialbar{
+	text-align: center;
+}
+.about a,.contribute a{
+	color: #000;
+}
+.about a:hover,.contribute a:hover{
+	color: #bbb;
+}
+.install h2{
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+footer{
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background: #428bca;
+}
+footer a{
+	color: #fff;
+}
