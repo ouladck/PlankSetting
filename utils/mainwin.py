@@ -26,27 +26,6 @@ class Mainwin():
 		about.run()
 		about.destroy()
 		
-	def add_dock(self, parent):
-		Gtk.Dialog.__init__(self, "Add a new Dock", parent, 0,
-							(Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL,
-							Gtk.STOCK_OK, Gtk.ResponseType.OK))
-		self.set_default_size(150, 150)
-		
-		label = Gtk.Label("Entry the name of the new dock:")
-		entry = Gtk.Entry()
-		
-		box = self.get_content_area()
-		box.add(label)
-		box.add(entry)
-		box.show_all()
-		
-		response = self.run()
-		if response == Gtk.ResponseType.OK:
-			
-			Gtk.MessageDialog('Dock added successfuly!')
-		self.destroy()
-		
-		
 	
 	def __init__(self, setting_path):
 		self.win = Gtk.Window()
@@ -75,10 +54,6 @@ class Mainwin():
 		self.abt = Gtk.MenuItem(g("About"))
 		self.abt.connect('activate', self.about)
 		self.m.append(self.abt)
-		""" Add a new Dock """
-		self.adk = Gtk.MenuItem(g("Add a new Dock")
-		self.adk.connect('activate', self.add_dock)
-		self.m.append(self.adk)
 		""" Exit """
 		self.xit = Gtk.MenuItem(g("Exit"))
 		self.xit.connect('activate', self.destroy)
