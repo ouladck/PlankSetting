@@ -3,28 +3,28 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Karim Oulad Chalha <herr.linux88@gmail.com>, 2014
+# Moo, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: PlankSetting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-14 13:36+0100\n"
-"PO-Revision-Date: 2014-06-14 13:01+0000\n"
-"Last-Translator: Karim Oulad Chalha <herr.linux88@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/planksetting/language/ar/)\n"
+"PO-Revision-Date: 2014-12-11 21:41+0000\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/planksetting/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: Main.py:27
 msgid "Choose the dock:"
-msgstr "إختر الشريط:"
+msgstr "Pasirinkite skydelį:"
 
 #: utils/mainwin.py:14 utils/mainwin.py:37
 msgid "PlankSetting"
-msgstr "إعدادات بلانك"
+msgstr "PlankSetting"
 
 #: utils/mainwin.py:17
 msgid "0.1.2"
@@ -32,192 +32,192 @@ msgstr "0.1.2"
 
 #: utils/mainwin.py:18
 msgid "A stupid application to customize plank dock easily."
-msgstr "تطبيق غبي لتخصيص شريط بلانك بسهولة."
+msgstr "Kvaila programa, skirta lengvam skydelio tinkinimui."
 
 #: utils/mainwin.py:21
 msgid "PlankSetting website"
-msgstr "الموقع"
+msgstr "PlankSetting svetainė"
 
 #: utils/mainwin.py:23
 msgid "GPL v3"
-msgstr "رخصة جنو العمومية إصدار 3"
+msgstr "GPL v3"
 
 #: utils/mainwin.py:24
 msgid "translator-credits"
-msgstr "كريم أولاد الشلحة"
+msgstr "Moo"
 
 #: utils/mainwin.py:49
 msgid "Menu"
-msgstr "قائمة"
+msgstr "Meniu"
 
 #: utils/mainwin.py:54
 msgid "About"
-msgstr "عن"
+msgstr "Apie"
 
 #: utils/mainwin.py:58
 msgid "Exit"
-msgstr "خروج"
+msgstr "Išeiti"
 
 #: utils/mainwin.py:64
 msgid "General"
-msgstr "عام"
+msgstr "Bendra"
 
 #: utils/mainwin.py:65 utils/theme.py:23
 msgid "Themes"
-msgstr "سمات"
+msgstr "Temos"
 
 #: utils/theme.py:35
 msgid "Add a theme"
-msgstr "أضف سمة"
+msgstr "Pridėti temą"
 
 #: utils/theme.py:39
 msgid "Remove a theme"
-msgstr "حذف سمة"
+msgstr "Šalinti temą"
 
 #: utils/theme.py:71
 msgid ""
 "You dont have a UNRAR program\n"
 "Please make sure to install it before!"
-msgstr "لا تتوفر على برنامج فك ضغط RAR\nالمرجوا تثبيته قبل البدء!"
+msgstr "Jūs neturite UNRAR programos\nPrašome įsitikinti, kad prieš tai ją įdiegėte!"
 
 #: utils/theme.py:99
 msgid ""
 "You dont have a UNZIP program\n"
 "Please make sure to install it before!"
-msgstr "لا تتوفر على برنامج فك ضغط ZIP\nالمرجوا تثبيته قبل البدء!"
+msgstr "Jūs neturite UNZIP programos\nPrašome įsitikinti, kad prieš tai ją įdiegėte!"
 
 #: utils/theme.py:104
 msgid "The theme format is not supported!"
-msgstr "نسق السمة غير مدعومة"
+msgstr "Temos formatas nepalaikomas!"
 
 #: utils/theme.py:117
 msgid "Do you really wanna remove the theme {} ?"
-msgstr "هل تود حقا حذف السمة {} ؟"
+msgstr "Ar tikrai norite pašalinti temą {} ?"
 
 #: utils/window.py:15
 msgid "Show windows"
-msgstr "عرض النوافذ"
+msgstr "Rodyti langus"
 
 #: utils/window.py:16
 msgid "Show only windows of the current workspace."
-msgstr "عرض نوافذ مساحة العمل الحالية فقط."
+msgstr "Rodyti tik esamo darbalaukio langus."
 
 #: utils/window.py:21
 msgid "Dock size"
-msgstr "حجم الشريط"
+msgstr "Skydelio dydis"
 
 #: utils/window.py:22
 msgid "The size of dock icons (in pixels)."
-msgstr "حجم أيقونات الشريط (بـ بكسل)."
+msgstr "Skydelio piktogramų dydis (taškais)."
 
 #: utils/window.py:28
 msgid "Display mode"
-msgstr "نمط العرض"
+msgstr "Rodymo veiksena"
 
 #: utils/window.py:29
 msgid "The display of the dock."
-msgstr "عرض الشريط."
+msgstr "Skydelio rodymas."
 
 #: utils/window.py:30
 msgid "Don't hide"
-msgstr "عدم الإخفاء"
+msgstr "Neslėpti"
 
 #: utils/window.py:30 utils/window.py:105
 msgid "Intelligently hide"
-msgstr "إخفاء الذكي"
+msgstr "Protingai slėpti"
 
 #: utils/window.py:30 utils/window.py:107
 msgid "Auto hide"
-msgstr "إخفاء الألي"
+msgstr "Automatiškai slėpti"
 
 #: utils/window.py:30 utils/window.py:109
 msgid "Dodge"
-msgstr "مراوغة"
+msgstr "Vengti"
 
 #: utils/window.py:33
 msgid "Waiting time"
-msgstr "وقت الإنتظار"
+msgstr "Laukimo laikas"
 
 #: utils/window.py:34
 msgid "Time (in ms) to wait before unhiding the dock."
-msgstr "وقت الانتظار (بـ مث) قبل إظهار الشريط."
+msgstr "Laikas (ms) prieš rodant skydelį. "
 
 #: utils/window.py:40
 msgid "The monitor number for the dock."
-msgstr "رقم مراقب الشريط."
+msgstr "Ekrano, kuriame pasirodys skydelis, numeris."
 
 #: utils/window.py:43
 msgid "Position"
-msgstr "موضع"
+msgstr "Vieta"
 
 #: utils/window.py:44
 msgid "The position for the dock on the monitor."
-msgstr "موضع الشريط في الشاشة."
+msgstr "Skydelio vieta ekrane."
 
 #: utils/window.py:45 utils/window.py:103
 msgid "Left"
-msgstr "يسار"
+msgstr "Kairė"
 
 #: utils/window.py:45 utils/window.py:105
 msgid "Right"
-msgstr "يمين"
+msgstr "Dešinė"
 
 #: utils/window.py:45 utils/window.py:107
 msgid "Top"
-msgstr "أعلى"
+msgstr "Viršus"
 
 #: utils/window.py:45 utils/window.py:109
 msgid "Bottom"
-msgstr "أسفل"
+msgstr "Apačia"
 
 #: utils/window.py:48
 msgid "Offset"
-msgstr "إزاحة"
+msgstr "Poslinkis"
 
 #: utils/window.py:49
 msgid "The dock's position offset from center (in percent)."
-msgstr "تعديل موقع الشريط من المركز (بـ النسبة%)."
+msgstr "Skydelio vietos poslinkis nuo vidurio (procentais)."
 
 #: utils/window.py:55
 msgid "Alignment"
-msgstr "إصطفاف"
+msgstr "Lygiavimas"
 
 #: utils/window.py:56
 msgid "The alignment for the dock on the monitor's edge."
-msgstr "اصطفاف الشريط على حواف الشاشة."
+msgstr "Skydelio lygiavimas ant ekrano krašto."
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:103
 msgid "Panel mode"
-msgstr "نمط الشريط"
+msgstr "Skydelio veiksena"
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:105
 msgid "Right aligned"
-msgstr "اصطفاف يمينا"
+msgstr "Lygiavimas dešinėje"
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:107
 msgid "Left aligned"
-msgstr "اصطفاف يسارا"
+msgstr "Lygiavimas kairėje"
 
 #: utils/window.py:57 utils/window.py:62 utils/window.py:109
 msgid "Centered"
-msgstr "توسيط"
+msgstr "Viduryje"
 
 #: utils/window.py:60
 msgid "Item alignment"
-msgstr "إصطفاف العناصر"
+msgstr "Elementų lygiavimas"
 
 #: utils/window.py:61
 msgid "The alignment of the items in this dock."
-msgstr "اصطفاف العناصر في الشريط."
+msgstr "Skydelio elementų lygiavimas."
 
 #: utils/window.py:65
 msgid "Drag'n'drop"
-msgstr "سحب و نقل"
+msgstr "Vilkimas"
 
 #: utils/window.py:66
 msgid "Prevent drag'n'drop actions and lock items on the dock."
-msgstr "منع إجراءات سحب و نقل العناصر في الشريط."
+msgstr "Neleisti vilkimo veiksmų ir užrakinti skydelio elementus."
 
 #: utils/window.py:103
 msgid "Hide"
-msgstr "إخفاء"
+msgstr "Slėpti"

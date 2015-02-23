@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 
 from gi.repository import Gtk
-from utils.writer import *
-from utils.reader import *
+from utils.serialize import *
 from gettext import gettext as g
 import os, zipfile, tarfile, shutil
 from utils.rarfile import *
 
 class Theme:
-	def __init__(self, setting_path):
+	def __init__(self, setting_path, folder):
 		self.theme_path = os.path.expanduser("~") + "/.local/share/plank/themes"
 		self.sys_theme_path = "/usr/share/plank/themes"
-		self.setting = setting_path + "/settings"
+		self.setting = setting_path + folder + "/settings"
 		self.win = Gtk.Window()
 		self.scroll = Gtk.ScrolledWindow()
 		

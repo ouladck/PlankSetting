@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-14 13:36+0100\n"
+"POT-Creation-Date: 2015-01-31 16:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,79 +17,123 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: Main.py:27
+#: Main.py:28
 msgid "Choose the dock:"
 msgstr ""
 
-#: utils/mainwin.py:14 utils/mainwin.py:37
+#: utils/addApps.py:83
+msgid "New Group"
+msgstr ""
+
+#: utils/addApps.py:85
+msgid "Enter the Group name"
+msgstr ""
+
+#: utils/addApps.py:121
+msgid "Group of Apps"
+msgstr ""
+
+#: utils/addApps.py:133
+msgid "Application"
+msgstr ""
+
+#: utils/addApps.py:153
+msgid "Add a Group"
+msgstr ""
+
+#: utils/addApps.py:158
+msgid "Delete a Group"
+msgstr ""
+
+#: utils/addApps.py:163
+msgid "Add a Application"
+msgstr ""
+
+#: utils/addApps.py:168
+msgid "Delete a Application"
+msgstr ""
+
+#: utils/mainwin.py:23 utils/mainwin.py:50
 msgid "PlankSetting"
 msgstr ""
 
-#: utils/mainwin.py:17
-msgid "0.1.2"
+#: utils/mainwin.py:30
+msgid "0.1.3"
 msgstr ""
 
-#: utils/mainwin.py:18
+#: utils/mainwin.py:32
 msgid "A stupid application to customize plank dock easily."
 msgstr ""
 
-#: utils/mainwin.py:21
+#: utils/mainwin.py:35
 msgid "PlankSetting website"
 msgstr ""
 
-#: utils/mainwin.py:23
+#: utils/mainwin.py:37
 msgid "GPL v3"
 msgstr ""
 
-#: utils/mainwin.py:24
+#: utils/mainwin.py:38
 msgid "translator-credits"
 msgstr ""
 
-#: utils/mainwin.py:49
+#: utils/mainwin.py:62
 msgid "Menu"
 msgstr ""
 
-#: utils/mainwin.py:54
+#: utils/mainwin.py:67
+msgid "Translate this Application"
+msgstr ""
+
+#: utils/mainwin.py:71
+msgid "Report a bug"
+msgstr ""
+
+#: utils/mainwin.py:75
 msgid "About"
 msgstr ""
 
-#: utils/mainwin.py:58
+#: utils/mainwin.py:79
 msgid "Exit"
 msgstr ""
 
-#: utils/mainwin.py:64
+#: utils/mainwin.py:85
 msgid "General"
 msgstr ""
 
-#: utils/mainwin.py:65 utils/theme.py:23
+#: utils/mainwin.py:86 utils/theme.py:22
 msgid "Themes"
 msgstr ""
 
-#: utils/theme.py:35
+#: utils/mainwin.py:87
+msgid "Group Apps"
+msgstr ""
+
+#: utils/theme.py:34
 msgid "Add a theme"
 msgstr ""
 
-#: utils/theme.py:39
+#: utils/theme.py:38
 msgid "Remove a theme"
 msgstr ""
 
-#: utils/theme.py:71
+#: utils/theme.py:70
 msgid ""
 "You dont have a UNRAR program\n"
 "Please make sure to install it before!"
 msgstr ""
 
-#: utils/theme.py:99
+#: utils/theme.py:98
 msgid ""
 "You dont have a UNZIP program\n"
 "Please make sure to install it before!"
 msgstr ""
 
-#: utils/theme.py:104
+#: utils/theme.py:103
 msgid "The theme format is not supported!"
 msgstr ""
 
-#: utils/theme.py:117
+#: utils/theme.py:121
 msgid "Do you really wanna remove the theme {} ?"
 msgstr ""
 
@@ -97,126 +141,126 @@ msgstr ""
 msgid "Show windows"
 msgstr ""
 
-#: utils/window.py:16
+#: utils/window.py:17
 msgid "Show only windows of the current workspace."
 msgstr ""
 
-#: utils/window.py:21
+#: utils/window.py:22
 msgid "Dock size"
 msgstr ""
 
-#: utils/window.py:22
+#: utils/window.py:23
 msgid "The size of dock icons (in pixels)."
 msgstr ""
 
-#: utils/window.py:28
+#: utils/window.py:31
 msgid "Display mode"
 msgstr ""
 
-#: utils/window.py:29
+#: utils/window.py:32
 msgid "The display of the dock."
 msgstr ""
 
-#: utils/window.py:30
+#: utils/window.py:34
 msgid "Don't hide"
 msgstr ""
 
-#: utils/window.py:30 utils/window.py:105
+#: utils/window.py:34 utils/window.py:132
 msgid "Intelligently hide"
 msgstr ""
 
-#: utils/window.py:30 utils/window.py:107
+#: utils/window.py:35 utils/window.py:134
 msgid "Auto hide"
 msgstr ""
 
-#: utils/window.py:30 utils/window.py:109
+#: utils/window.py:35 utils/window.py:136
 msgid "Dodge"
 msgstr ""
 
-#: utils/window.py:33
+#: utils/window.py:38
 msgid "Waiting time"
 msgstr ""
 
-#: utils/window.py:34
+#: utils/window.py:40
 msgid "Time (in ms) to wait before unhiding the dock."
 msgstr ""
 
-#: utils/window.py:40
+#: utils/window.py:46
 msgid "The monitor number for the dock."
 msgstr ""
 
-#: utils/window.py:43
+#: utils/window.py:50
 msgid "Position"
 msgstr ""
 
-#: utils/window.py:44
+#: utils/window.py:52
 msgid "The position for the dock on the monitor."
 msgstr ""
 
-#: utils/window.py:45 utils/window.py:103
+#: utils/window.py:53 utils/window.py:130
 msgid "Left"
 msgstr ""
 
-#: utils/window.py:45 utils/window.py:105
+#: utils/window.py:53 utils/window.py:132
 msgid "Right"
 msgstr ""
 
-#: utils/window.py:45 utils/window.py:107
+#: utils/window.py:53 utils/window.py:134
 msgid "Top"
 msgstr ""
 
-#: utils/window.py:45 utils/window.py:109
+#: utils/window.py:53 utils/window.py:136
 msgid "Bottom"
 msgstr ""
 
-#: utils/window.py:48
+#: utils/window.py:56
 msgid "Offset"
 msgstr ""
 
-#: utils/window.py:49
+#: utils/window.py:58
 msgid "The dock's position offset from center (in percent)."
 msgstr ""
 
-#: utils/window.py:55
+#: utils/window.py:66
 msgid "Alignment"
 msgstr ""
 
-#: utils/window.py:56
+#: utils/window.py:68
 msgid "The alignment for the dock on the monitor's edge."
 msgstr ""
 
-#: utils/window.py:57 utils/window.py:62 utils/window.py:103
+#: utils/window.py:70 utils/window.py:79 utils/window.py:130
 msgid "Panel mode"
 msgstr ""
 
-#: utils/window.py:57 utils/window.py:62 utils/window.py:105
+#: utils/window.py:70 utils/window.py:79 utils/window.py:132
 msgid "Right aligned"
 msgstr ""
 
-#: utils/window.py:57 utils/window.py:62 utils/window.py:107
+#: utils/window.py:71 utils/window.py:80 utils/window.py:134
 msgid "Left aligned"
 msgstr ""
 
-#: utils/window.py:57 utils/window.py:62 utils/window.py:109
+#: utils/window.py:71 utils/window.py:80 utils/window.py:136
 msgid "Centered"
 msgstr ""
 
-#: utils/window.py:60
+#: utils/window.py:75
 msgid "Item alignment"
 msgstr ""
 
-#: utils/window.py:61
+#: utils/window.py:77
 msgid "The alignment of the items in this dock."
 msgstr ""
 
-#: utils/window.py:65
+#: utils/window.py:83
 msgid "Drag'n'drop"
 msgstr ""
 
-#: utils/window.py:66
+#: utils/window.py:85
 msgid "Prevent drag'n'drop actions and lock items on the dock."
 msgstr ""
 
-#: utils/window.py:103
+#: utils/window.py:130
 msgid "Hide"
 msgstr ""
