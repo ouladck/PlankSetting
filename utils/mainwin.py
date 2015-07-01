@@ -27,7 +27,7 @@ class Mainwin():
         about.set_icon(
             GdkPixbuf.Pixbuf
             .new_from_file("/usr/share/pixmaps/planksetting_logo.png"))
-        about.set_version(g("0.1.3"))
+        about.set_version("0.1.3.1")
         about.set_comments(
             g("A stupid application to customize plank dock easily."))
         about.set_copyright("Copyright (c) 2014-2015 Karim Oulad Chalha")

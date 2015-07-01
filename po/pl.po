@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Piotr Strębski <strebski@o2.pl>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: PlankSetting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-31 16:29+0000\n"
+"PO-Revision-Date: 2015-04-20 11:00+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/planksetting/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: Main.py:28
+msgid "Choose the dock:"
+msgstr "Wybierz dok:"
+
+#: utils/addApps.py:83
+msgid "New Group"
+msgstr "Nowa grupa"
+
+#: utils/addApps.py:85
+msgid "Enter the Group name"
+msgstr "Podaj nazwę grupy"
+
+#: utils/addApps.py:121
+msgid "Group of Apps"
+msgstr "Grupa programów"
+
+#: utils/addApps.py:133
+msgid "Application"
+msgstr "Program"
+
+#: utils/addApps.py:153
+msgid "Add a Group"
+msgstr "Dodaj grupę"
+
+#: utils/addApps.py:158
+msgid "Delete a Group"
+msgstr "Usuń grupę"
+
+#: utils/addApps.py:163
+msgid "Add a Application"
+msgstr "Dodaj program"
+
+#: utils/addApps.py:168
+msgid "Delete a Application"
+msgstr "Usuń program"
+
+#: utils/mainwin.py:23 utils/mainwin.py:50
+msgid "PlankSetting"
+msgstr "PlankSetting"
+
+#: utils/mainwin.py:30
+msgid "0.1.3"
+msgstr "0.1.3"
+
+#: utils/mainwin.py:32
+msgid "A stupid application to customize plank dock easily."
+msgstr "Prościutki program, który umożliwia użytkownikom łatwe dostosowanie doku Plank."
+
+#: utils/mainwin.py:35
+msgid "PlankSetting website"
+msgstr "Strona internetowa PlankSetting"
+
+#: utils/mainwin.py:37
+msgid "GPL v3"
+msgstr "GPL wersja 3"
+
+#: utils/mainwin.py:38
+msgid "translator-credits"
+msgstr "Piotr Strębski"
+
+#: utils/mainwin.py:62
+msgid "Menu"
+msgstr "Menu"
+
+#: utils/mainwin.py:67
+msgid "Translate this Application"
+msgstr "Przetłumacz ten program"
+
+#: utils/mainwin.py:71
+msgid "Report a bug"
+msgstr "Zgłoś błąd"
+
+#: utils/mainwin.py:75
+msgid "About"
+msgstr "O programie"
+
+#: utils/mainwin.py:79
+msgid "Exit"
+msgstr "Wyjdź"
+
+#: utils/mainwin.py:85
+msgid "General"
+msgstr "Ogólne"
+
+#: utils/mainwin.py:86 utils/theme.py:22
+msgid "Themes"
+msgstr "Motywy"
+
+#: utils/mainwin.py:87
+msgid "Group Apps"
+msgstr "Grupowanie programów"
+
+#: utils/theme.py:34
+msgid "Add a theme"
+msgstr "Dodaj motyw"
+
+#: utils/theme.py:38
+msgid "Remove a theme"
+msgstr "Usuń motyw"
+
+#: utils/theme.py:70
+msgid ""
+"You dont have a UNRAR program\n"
+"Please make sure to install it before!"
+msgstr "Nie masz zainstalowanego programu UNRAR\nUpewnij się, że już go zainstalowałeś!"
+
+#: utils/theme.py:98
+msgid ""
+"You dont have a UNZIP program\n"
+"Please make sure to install it before!"
+msgstr "Nie masz zainstalowanego programu UNZIP\nUpewnij się, że już go zainstalowałeś!"
+
+#: utils/theme.py:103
+msgid "The theme format is not supported!"
+msgstr "Format motywu nie jest obsługiwany!"
+
+#: utils/theme.py:121
+msgid "Do you really wanna remove the theme {} ?"
+msgstr "Czy na pewno chcesz usunąć motyw {}?"
+
+#: utils/window.py:15
+msgid "Show windows"
+msgstr "Pokaż okna"
+
+#: utils/window.py:17
+msgid "Show only windows of the current workspace."
+msgstr "Pokazuj tylko okna bieżącego obszaru roboczego."
+
+#: utils/window.py:22
+msgid "Dock size"
+msgstr "Rozmiar doku"
+
+#: utils/window.py:23
+msgid "The size of dock icons (in pixels)."
+msgstr "Rozmiar ikon doku (w pikselach)."
+
+#: utils/window.py:31
+msgid "Display mode"
+msgstr "Tryb wyświetlania"
+
+#: utils/window.py:32
+msgid "The display of the dock."
+msgstr "Wyświetlanie doku."
+
+#: utils/window.py:34
+msgid "Don't hide"
+msgstr "Nie ukrywaj"
+
+#: utils/window.py:34 utils/window.py:132
+msgid "Intelligently hide"
+msgstr "Inteligentne ukrywanie"
+
+#: utils/window.py:35 utils/window.py:134
+msgid "Auto hide"
+msgstr "Automatyczne ukrywanie"
+
+#: utils/window.py:35 utils/window.py:136
+msgid "Dodge"
+msgstr "Zmyłka"
+
+#: utils/window.py:38
+msgid "Waiting time"
+msgstr "Czas oczekiwania"
+
+#: utils/window.py:40
+msgid "Time (in ms) to wait before unhiding the dock."
+msgstr "Czas (w milisekundach) do odczekania przed ponownym ukazaniem doku."
+
+#: utils/window.py:46
+msgid "The monitor number for the dock."
+msgstr "Numer monitora dla doku."
+
+#: utils/window.py:50
+msgid "Position"
+msgstr "Położenie"
+
+#: utils/window.py:52
+msgid "The position for the dock on the monitor."
+msgstr "Położenie doku na monitorze."
+
+#: utils/window.py:53 utils/window.py:130
+msgid "Left"
+msgstr "Po lewej"
+
+#: utils/window.py:53 utils/window.py:132
+msgid "Right"
+msgstr "Po prawej"
+
+#: utils/window.py:53 utils/window.py:134
+msgid "Top"
+msgstr "Na górze"
+
+#: utils/window.py:53 utils/window.py:136
+msgid "Bottom"
+msgstr "Na dole"
+
+#: utils/window.py:56
+msgid "Offset"
+msgstr "Przesunięcie"
+
+#: utils/window.py:58
+msgid "The dock's position offset from center (in percent)."
+msgstr "Przesunięcie położenia doku względem środka (w procentach)."
+
+#: utils/window.py:66
+msgid "Alignment"
+msgstr "Wyrównanie"
+
+#: utils/window.py:68
+msgid "The alignment for the dock on the monitor's edge."
+msgstr "Wyrównanie doku względem krawędzi monitora."
+
+#: utils/window.py:70 utils/window.py:79 utils/window.py:130
+msgid "Panel mode"
+msgstr "Tryb panelu"
+
+#: utils/window.py:70 utils/window.py:79 utils/window.py:132
+msgid "Right aligned"
+msgstr "Do prawej"
+
+#: utils/window.py:71 utils/window.py:80 utils/window.py:134
+msgid "Left aligned"
+msgstr "Do lewej"
+
+#: utils/window.py:71 utils/window.py:80 utils/window.py:136
+msgid "Centered"
+msgstr "Wyśrodkowanie"
+
+#: utils/window.py:75
+msgid "Item alignment"
+msgstr "Wyrównanie elementów"
+
+#: utils/window.py:77
+msgid "The alignment of the items in this dock."
+msgstr "Wyrównanie elementów na tym doku."
+
+#: utils/window.py:83
+msgid "Drag'n'drop"
+msgstr "Przeciągnij i upuść"
+
+#: utils/window.py:85
+msgid "Prevent drag'n'drop actions and lock items on the dock."
+msgstr "Powstrzymuj działania przeciągnij-i-upuść i zablokuj elementy na doku."
+
+#: utils/window.py:130
+msgid "Hide"
+msgstr "Ukryj"
