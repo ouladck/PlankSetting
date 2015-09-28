@@ -39,3 +39,7 @@ chmod +x uninstall.sh    #to make the uninstaller executable
 or
 
 sh uninstall.sh
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/karim88/planksetting/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
