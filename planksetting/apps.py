@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
-from gi.repository import Gtk
-from gettext import gettext as g
+from planksetting import Gtk
+from planksetting import g
 import os
 import shutil
 
-
-class AddApps:
+class apps:
 
     def makedire(self, f):
         if not os.path.exists(f):
@@ -98,7 +97,7 @@ class AddApps:
         self.refresh(self.liststore, self.groupdir)
         self.dialog.destroy()
 
-    def __init__(self, path_setting, folder):
+    def __init__(self, folder):
         self.selectedgroup, self.selectedapp = str(), str()
         self.appname, self.appnom = str(), str()
         self.groupdir = os.path.expanduser("~") + "/.config/plank/" + folder + "/groupapps/"

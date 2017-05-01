@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-from gi.repository import Gtk, GdkPixbuf
-from utils.window import Window
-from utils.theme import Theme
-from utils.addApps import AddApps
-from gettext import gettext as g
+from planksetting import Gtk, GdkPixbuf
+from planksetting.general import *
+from planksetting.themes import *
+from planksetting.apps import *
+from planksetting import g
 import webbrowser
 
 
-class Mainwin():
+class windows():
     def destroy(self, widget):
         Gtk.main_quit()
 
@@ -40,7 +40,7 @@ class Mainwin():
         about.run()
         about.destroy()
 
-    def __init__(self, setting_path, folder):
+    def __init__(self, folder):
         self.win = Gtk.Window()
         self.win.set_default_size(800, 500)
 
@@ -51,9 +51,9 @@ class Mainwin():
         self.win.set_titlebar(self.head)
 
         #instance
-        self.ins = Window(setting_path, folder)
-        self.themes = Theme(setting_path, folder)
-        self.adda = AddApps(setting_path, folder)
+        self.general = general(folder)
+        self.themes = themes(folder)
+        self.adda = apps(folder)
 
         self.box = Gtk.VBox()
         self.menu = Gtk.MenuBar()
@@ -82,7 +82,7 @@ class Mainwin():
 
         """ Tabs """
         self.tab = Gtk.Notebook()
-        self.tab.append_page(self.ins.scroll, Gtk.Label(g("General")))
+        self.tab.append_page(self.general.scroll, Gtk.Label(g("General")))
         self.tab.append_page(self.themes.box, Gtk.Label(g("Themes")))
         self.tab.append_page(self.adda.box, Gtk.Label(g("Group Apps")))
 

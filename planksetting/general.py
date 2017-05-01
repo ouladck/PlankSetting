@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 
-from gi.repository import Gtk
-from utils.serialize import *
-from gettext import gettext as g
+from planksetting import Gtk
+from planksetting import Gio
+from planksetting import g
 
 
-class Window:
-    def __init__(self, setting_path, folder):
+class general:
+    def __init__(self, folder):
         self.win = Gtk.Window()
-        self.setting = setting_path + folder + "/settings"
+        self.setting = Gio.Settings.new_with_path("net.launchpad.plank.dock.settings", "/net/launchpad/plank/docks/{}/".format(folder))
         self.scroll = Gtk.ScrolledWindow()
 
         #Whether to show only windows of the current workspace.
         self.label1 = Gtk.Label(g("Show windows"))
-        self.label1.set_tooltip_text(
-            g("Show only windows of the current workspace."))
+        self.label1.set_tooltip_text(g("Show only windows of the current workspace."))
         self.switch = Gtk.Switch()
         self.switch.connect("notify::active", self.switched)
 
@@ -86,10 +85,6 @@ class Window:
         self.drag = Gtk.Switch()
         self.drag.connect("notify::active", self.switched1)
 
-        #################
-        self.read_file()
-        #################
-
         self.table = Gtk.VBox()
 
         self.table.pack_start(self.fbox(self.label1, self.switch),
@@ -124,95 +119,90 @@ class Window:
         return h
 
     def radios(self, arg1, arg2, arg3, arg4, nmbr):
-        def toggled(widget):
-            value = 0
-            if widget.get_active():
-                if widget.get_label() == g("Hide")or widget.get_label()== g("Left") or widget.get_label() == g("Panel mode"):
-                    value = 0
-                elif widget.get_label() == g("Intelligently hide") or widget.get_label() == g("Right") or widget.get_label() == g("Right aligned"):
-                    value = 1
-                elif widget.get_label() == g("Auto hide") or widget.get_label() == g("Top") or widget.get_label() == g("Left aligned"):
-                    value = 2
-                elif widget.get_label() == g("Dodge") or widget.get_label() == g("Bottom") or widget.get_label() == g("Centered"):
-                    value = 3
-            if nmbr == 1:
-                write_func(read_func(self.setting), self.setting, "HideMode", value)
-            elif nmbr == 2:
-                write_func(read_func(self.setting), self.setting, "Position", value)
-            elif nmbr == 3:
-                write_func(read_func(self.setting), self.setting, "Alignment", value)
-            elif nmbr == 4:
-                write_func(read_func(self.setting), self.setting, "ItemsAlignment", value)
         self.box = Gtk.HBox()
         self.hide = Gtk.RadioButton(arg1)
-        self.hide.connect("toggled", toggled)
+        self.hide.connect("toggled", self.toggled, nmbr)
         self.ihide = Gtk.RadioButton(arg2, group=self.hide)
-        self.ihide.connect("toggled", toggled)
+        self.ihide.connect("toggled", self.toggled, nmbr)
         self.ahide = Gtk.RadioButton(arg3, group=self.hide)
-        self.ahide.connect("toggled", toggled)
+        self.ahide.connect("toggled", self.toggled, nmbr)
         self.maxw = Gtk.RadioButton(arg4, group=self.hide)
-        self.maxw.connect("toggled", toggled)
+        self.maxw.connect("toggled", self.toggled, nmbr)
+
         self.box.pack_start(self.hide, 0, 0, False)
         self.box.pack_start(self.ihide, 0, 0, False)
         self.box.pack_start(self.ahide, 0, 0, False)
         self.box.pack_start(self.maxw, 0, 0, False)
         return self.box, self.hide, self.ihide, self.ahide, self.maxw
 
-    def read_file(self):
-        self.lst = read_func(self.setting)
-        for a in self.lst:
-            #1
-            if a[0:a.find("=")] == "CurrentWorkspaceOnly":
-                if a[a.find("=")+1:-1] == "true":
-                    self.switch.set_active(True)
-                else:
-                    self.switch.set_active(False)
-            #2
-            if a[0:a.find("=")] == "IconSize":
-                self.spinbutton.set_value(int(a[a.find("=")+1:-1]))
-            #3
-            if a[0:a.find("=")] == "HideMode":
-                self.display[int(a[a.find("=")+1:-1])+1].set_active(True)
-            #4
-            if a[0:a.find("=")] == "UnhideDelay":
-                self.spintime.set_value(int(a[a.find("=")+1:-1]))
-            #5
-            if a[0:a.find("=")] == "Position":
-                self.pos[int(a[a.find("=")+1:-1])+1].set_active(True)
-            #6
-            if a[0:a.find("=")] == "Offset":
-                self.offset.set_value(int(a[a.find("=")+1:-1]))
-            #7
-            if a[0:a.find("=")] == "Alignment":
-                self.alignment[int(a[a.find("=")+1:-1])+1].set_active(True)
-            #8
-            if a[0:a.find("=")] == "ItemsAlignment":
-                self.itemalig[int(a[a.find("=")+1:-1])+1].set_active(True)
-            #9
-            if a[0:a.find("=")] == "LockItems":
-                if a[a.find("=")+1:-1] == "true":
-                    self.drag.set_active(True)
-                else:
-                    self.drag.set_active(False)
-
-            #end   a[a.find("=")+1:-1] #start  a[0:a.find("=")]
 
     #Helpers
     #1
+
+    def toggled(self, widget, init_value):
+        value = 0
+        print(init_value)
+        print(widget)
+        if widget.get_active():
+            if(init_value == 1):
+                if widget.get_label() == g("Don't Hide"):
+                    value = 'left'
+                elif widget.get_label() == g("Intelligently hide"):
+                    value = 'right'
+                elif widget.get_label() == g("Auto hide"):
+                    value = 'top'
+                elif widget.get_label() == g("Dodge"):
+                    value = 'bottom'
+
+            if(init_value == 2):
+                if widget.get_label() == g("Left"):
+                    value = 'left'
+                elif widget.get_label() == g("Right"):
+                    value = 'right'
+                elif widget.get_label() == g("Top"):
+                    value = 'top'
+                elif widget.get_label() == g("Bottom"):
+                    value = 'bottom'
+
+            if(init_value == 3 or init_value == 4):
+                if widget.get_label() == g("Panel mode"):
+                    value = 'panel'
+                elif widget.get_label() == g("Right aligned"):
+                    value = 'right'
+                elif widget.get_label() == g("Left aligned"):
+                    value = 'left'
+                elif widget.get_label() == g("Centered"):
+                    value = 'conter'
+
+        if init_value == 1:
+            self.setting.set_string("hide-mode", str(value))
+        elif init_value == 2:
+            self.setting.set_string("position", str(value))
+        elif init_value == 3:
+            self.setting.set_string("alignment", str(value))
+        elif init_value == 4:
+            self.setting.set_string("items-alignment", str(value))
+        self.setting.apply()
+
     def switched(self, widget, state):
-        write_func(read_func(self.setting), self.setting, "CurrentWorkspaceOnly", widget.get_active())
+        self.setting.set_string("current-workspace-only", str(widget.get_active()))
+        self.setting.apply()
     #2
     def spinb_chenged(self, widget):
-        write_func(read_func(self.setting), self.setting, "IconSize", widget.get_value_as_int())
+        self.setting.set_string("icon-size", str(widget.get_value_as_int()))
+        self.setting.apply()
     #4
     def spint_chenged(self, widget):
-        write_func(read_func(self.setting), self.setting, "UnhideDelay", widget.get_value_as_int())
+        self.setting.set_string("unhide-delay", str(widget.get_value_as_int()))
+        self.setting.apply()
     #6
     def offset_chenged(self, widget):
-        write_func(read_func(self.setting), self.setting, "Offset", widget.get_value_as_int())
+        self.setting.set_string("offset", str(widget.get_value_as_int()))
+        self.setting.apply()
     #9
     def switched1(self, widget, state):
-        write_func(read_func(self.setting), self.setting, "LockItems", widget.get_active())
+        self.setting.set_string("lock-items", str(widget.get_active()))
+        self.setting.apply()
 
 
     def main(self):
