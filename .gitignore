@@ -1,2 +1,3 @@
 utils/__pycache__
-/.idea/*
+/.idea
+/planksetting/__pycache__
