@@ -1,6 +1,7 @@
 [0.1.4]
-- Gsettings insteadof setting file.
--
+- using Gsettings instead of setting file.
+- fixing issue #3
+- Adding New translation files
 
 [0.1.3.1]
 - Adding Polish translation
