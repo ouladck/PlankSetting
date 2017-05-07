@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from gi.repository import Gtk
-from utils.mainwin import Mainwin
+from planksetting import Gtk
+from planksetting.windows import *
 import os
 import gettext
-from gettext import gettext as g
+from planksetting import g
 
 APP_NAME = "planksetting"
 APP_DIR = "/usr/share/locale"
@@ -19,7 +19,7 @@ folder = ""
 def choosed(widget):
     folder = widget.get_label()
     win.hide()
-    main = Mainwin(os.path.expanduser("~") + "/.config/plank/", folder)
+    main = windows(folder)
     main.main()
 
 if __name__ == "__main__":
@@ -39,5 +39,5 @@ if __name__ == "__main__":
     else:
         for a in setting_path:
             folder = a
-            main = Mainwin(os.path.expanduser("~") + "/.config/plank/", folder)
+            main = windows(folder)
             main.main()

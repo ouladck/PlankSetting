@@ -1,5 +1,16 @@
-[0.1.1]
- - add logo
+[0.1.4]
+- Gsettings insteadof setting file.
+-
+
+[0.1.3.1]
+- Adding Polish translation
+- Adding Russian translation
+
+[0.1.3]
+- fixing some bugs
+- adding tabs to create or remove a Goupe of Applications
+- Adding Lithuanian translation
+- Adding Hungarian translation
 
 [0.1.2]
  - fixing theme tab
@@ -7,11 +18,6 @@
  - updating Arabic translation
  - Adding French translation
  - allowing delete themes from system themes location
-[0.1.3]
-- fixing some bugs
-- adding tabs to create or remove a Goupe of Applications
-- Adding Lithuanian translation
-- Adding Hungarian translation
-[0.1.3.1]
-- Adding Polish translation
-- Adding Russian translation
+
+[0.1.1]
+ - add logo

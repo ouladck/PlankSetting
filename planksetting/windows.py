@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-from gi.repository import Gtk, GdkPixbuf
-from utils.window import Window
-from utils.theme import Theme
-from utils.addApps import AddApps
-from gettext import gettext as g
 import webbrowser
 
+from planksetting import Gtk, GdkPixbuf
+from planksetting import g
+from planksetting.apps import *
+from planksetting.general import *
+from planksetting.themes import *
 
-class Mainwin():
+
+class windows():
     def destroy(self, widget):
         Gtk.main_quit()
 
@@ -27,10 +28,10 @@ class Mainwin():
         about.set_icon(
             GdkPixbuf.Pixbuf
             .new_from_file("/usr/share/pixmaps/planksetting_logo.png"))
-        about.set_version("0.1.3.1")
+        about.set_version("0.1.4.1")
         about.set_comments(
             g("A stupid application to customize plank dock easily."))
-        about.set_copyright("Copyright (c) 2014-2015 Karim Oulad Chalha")
+        about.set_copyright("Copyright (c) 2014-2017 Karim Oulad Chalha")
         about.set_website("http://karim88.github.io/PlankSetting/")
         about.set_website_label(g("PlankSetting website"))
         about.set_authors(["Karim Oulad Chalha"])
@@ -40,9 +41,9 @@ class Mainwin():
         about.run()
         about.destroy()
 
-    def __init__(self, setting_path, folder):
+    def __init__(self, folder):
         self.win = Gtk.Window()
-        self.win.set_default_size(800, 500)
+        self.win.set_default_size(1000, 600)
 
         #HeadBar
         self.head = Gtk.HeaderBar()
@@ -51,9 +52,9 @@ class Mainwin():
         self.win.set_titlebar(self.head)
 
         #instance
-        self.ins = Window(setting_path, folder)
-        self.themes = Theme(setting_path, folder)
-        self.adda = AddApps(setting_path, folder)
+        self.general = general(folder)
+        self.themes = themes(folder)
+        self.adda = apps(folder)
 
         self.box = Gtk.VBox()
         self.menu = Gtk.MenuBar()
@@ -82,7 +83,7 @@ class Mainwin():
 
         """ Tabs """
         self.tab = Gtk.Notebook()
-        self.tab.append_page(self.ins.scroll, Gtk.Label(g("General")))
+        self.tab.append_page(self.general.scroll, Gtk.Label(g("General")))
         self.tab.append_page(self.themes.box, Gtk.Label(g("Themes")))
         self.tab.append_page(self.adda.box, Gtk.Label(g("Group Apps")))
 
