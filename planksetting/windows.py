@@ -43,7 +43,7 @@ class windows():
 
     def __init__(self, folder):
         self.win = Gtk.Window()
-        self.win.set_default_size(800, 500)
+        self.win.set_default_size(1000, 600)
 
         #HeadBar
         self.head = Gtk.HeaderBar()
