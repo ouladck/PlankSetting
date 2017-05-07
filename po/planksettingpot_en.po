@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: PlankSetting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-07 01:57+0100\n"
+"PO-Revision-Date: 2017-05-07 01:03+0000\n"
+"Last-Translator: Karim Oulad Chalha <herr.linux88@gmail.com>\n"
+"Language-Team: English (http://www.transifex.com/karim/planksetting/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: planksetting.py:28
+msgid "Choose the dock:"
+msgstr "Choose the dock:"
+
+#: planksetting/apps.py:82
+msgid "New Group"
+msgstr "New Group"
+
+#: planksetting/apps.py:84
+msgid "Enter the Group name"
+msgstr "Enter the Group name"
+
+#: planksetting/apps.py:120
+msgid "Group of Apps"
+msgstr "Group of Apps"
+
+#: planksetting/apps.py:132
+msgid "Application"
+msgstr "Application"
+
+#: planksetting/apps.py:152
+msgid "Add a Group"
+msgstr "Add a Group"
+
+#: planksetting/apps.py:157
+msgid "Delete a Group"
+msgstr "Delete a Group"
+
+#: planksetting/apps.py:162
+msgid "Add a Application"
+msgstr "Add a Application"
+
+#: planksetting/apps.py:167
+msgid "Delete a Application"
+msgstr "Delete a Application"
+
+#: planksetting/general.py:16
+msgid "Show windows"
+msgstr "Show windows"
+
+#: planksetting/general.py:17
+msgid "Show only windows of the current workspace."
+msgstr "Show only windows of the current workspace."
+
+#: planksetting/general.py:25
+msgid "Icon size"
+msgstr "Icon size"
+
+#: planksetting/general.py:26
+msgid "The size of dock icons (in pixels)."
+msgstr "The size of dock icons (in pixels)."
+
+#: planksetting/general.py:37
+msgid "Display mode"
+msgstr "Display mode"
+
+#: planksetting/general.py:38
+msgid "The display of the dock."
+msgstr "The display of the dock."
+
+#: planksetting/general.py:39
+msgid "Don't hide"
+msgstr "Don't hide"
+
+#: planksetting/general.py:39 planksetting/general.py:301
+msgid "Intelligently hide"
+msgstr "Intelligently hide"
+
+#: planksetting/general.py:40 planksetting/general.py:303
+msgid "Auto hide"
+msgstr "Auto hide"
+
+#: planksetting/general.py:40
+msgid "Dodge active"
+msgstr "Dodge active"
+
+#: planksetting/general.py:40 planksetting/general.py:307
+msgid "Dodge maximized"
+msgstr "Dodge maximized"
+
+#: planksetting/general.py:40 planksetting/general.py:309
+msgid "Dodge window"
+msgstr "Dodge window"
+
+#: planksetting/general.py:44
+msgid "Waiting time"
+msgstr "Waiting time"
+
+#: planksetting/general.py:46
+msgid "Time (in ms) to wait before unhiding the dock."
+msgstr "Time (in ms) to wait before unhiding the dock."
+
+#: planksetting/general.py:55
+msgid "Dock hide delay"
+msgstr "Dock hide delay"
+
+#: planksetting/general.py:57
+msgid "Length of the delay before hiding the dock, in milliseconds."
+msgstr "Length of the delay before hiding the dock, in milliseconds."
+
+#: planksetting/general.py:66
+msgid "The monitor number for the dock."
+msgstr "The monitor number for the dock."
+
+#: planksetting/general.py:77
+msgid "Position"
+msgstr "Position"
+
+#: planksetting/general.py:79
+msgid "The position for the dock on the monitor."
+msgstr "The position for the dock on the monitor."
+
+#: planksetting/general.py:80 planksetting/general.py:313
+msgid "Left"
+msgstr "Left"
+
+#: planksetting/general.py:80 planksetting/general.py:315
+msgid "Right"
+msgstr "Right"
+
+#: planksetting/general.py:80 planksetting/general.py:317
+msgid "Top"
+msgstr "Top"
+
+#: planksetting/general.py:80 planksetting/general.py:319
+msgid "Bottom"
+msgstr "Bottom"
+
+#: planksetting/general.py:83
+msgid "Offset"
+msgstr "Offset"
+
+#: planksetting/general.py:85
+msgid "The dock's position offset from center (in percent)."
+msgstr "The dock's position offset from center (in percent)."
+
+#: planksetting/general.py:96
+msgid "Alignment"
+msgstr "Alignment"
+
+#: planksetting/general.py:98
+msgid "The alignment for the dock on the monitor's edge."
+msgstr "The alignment for the dock on the monitor's edge."
+
+#: planksetting/general.py:100 planksetting/general.py:109
+#: planksetting/general.py:323
+msgid "Panel mode"
+msgstr "Panel mode"
+
+#: planksetting/general.py:100 planksetting/general.py:109
+#: planksetting/general.py:325
+msgid "Right aligned"
+msgstr "Right aligned"
+
+#: planksetting/general.py:101 planksetting/general.py:110
+#: planksetting/general.py:327
+msgid "Left aligned"
+msgstr "Left aligned"
+
+#: planksetting/general.py:101 planksetting/general.py:110
+#: planksetting/general.py:329
+msgid "Centered"
+msgstr "Centered"
+
+#: planksetting/general.py:105
+msgid "Item alignment"
+msgstr "Item alignment"
+
+#: planksetting/general.py:107
+msgid "The alignment of the items in this dock."
+msgstr "The alignment of the items in this dock."
+
+#: planksetting/general.py:113
+msgid "Disable Drag'N'Drop"
+msgstr "Disable Drag'N'Drop"
+
+#: planksetting/general.py:115
+msgid "Prevent drag'n'drop actions and lock items on the dock."
+msgstr "Prevent drag'n'drop actions and lock items on the dock."
+
+#: planksetting/general.py:123
+msgid "Auto pin"
+msgstr "Auto pin"
+
+#: planksetting/general.py:124
+msgid "Automatically pin an application if it seems useful to do"
+msgstr "Automatically pin an application if it seems useful to do"
+
+#: planksetting/general.py:132
+msgid "Only show pinned applications"
+msgstr "Only show pinned applications"
+
+#: planksetting/general.py:134
+msgid ""
+"If true, only show pinned applications. Useful for running more than one "
+"dock."
+msgstr "If true, only show pinned applications. Useful for running more than one dock."
+
+#: planksetting/general.py:142
+msgid "Pressure Reveal"
+msgstr "Pressure Reveal"
+
+#: planksetting/general.py:144
+msgid ""
+"If true, use pressure-based revealing of the dock if the input device "
+"supports it."
+msgstr "If true, use pressure-based revealing of the dock if the input device supports it."
+
+#: planksetting/general.py:152
+msgid "Show the item for the dock itself"
+msgstr "Show the item for the dock itself"
+
+#: planksetting/general.py:153
+msgid "If true, show the Plank dock item."
+msgstr "If true, show the Plank dock item."
+
+#: planksetting/general.py:161
+msgid "Show tooltips when items are hovered"
+msgstr "Show tooltips when items are hovered"
+
+#: planksetting/general.py:162
+msgid ""
+"If true, tooltips will be shown when dock items are hovered with the cursor."
+msgstr "If true, tooltips will be shown when dock items are hovered with the cursor."
+
+#: planksetting/general.py:170
+msgid "Zoom dock items when hovered"
+msgstr "Zoom dock items when hovered"
+
+#: planksetting/general.py:171
+msgid "If true, zoom dock items when hovered with the cursor."
+msgstr "If true, zoom dock items when hovered with the cursor."
+
+#: planksetting/general.py:180
+msgid "Icon zoom percentage"
+msgstr "Icon zoom percentage"
+
+#: planksetting/general.py:181
+msgid "The amount to zoom dock items, in percent."
+msgstr "The amount to zoom dock items, in percent."
+
+#: planksetting/general.py:299
+msgid "Don't Hide"
+msgstr "Don't Hide"
+
+#: planksetting/general.py:305
+msgid "Dodge"
+msgstr "Dodge"
+
+#: planksetting/themes.py:23 planksetting/windows.py:87
+msgid "Themes"
+msgstr "Themes"
+
+#: planksetting/themes.py:35
+msgid "Add a theme"
+msgstr "Add a theme"
+
+#: planksetting/themes.py:39
+msgid "Remove a theme"
+msgstr "Remove a theme"
+
+#: planksetting/themes.py:73
+msgid ""
+"You dont have a UNRAR program\n"
+"Please make sure to install it before!"
+msgstr "You dont have a UNRAR program\nPlease make sure to install it before!"
+
+#: planksetting/themes.py:104
+msgid ""
+"You dont have a UNZIP program\n"
+"Please make sure to install it before!"
+msgstr "You dont have a UNZIP program\nPlease make sure to install it before!"
+
+#: planksetting/themes.py:110
+msgid "The theme format is not supported!"
+msgstr "The theme format is not supported!"
+
+#: planksetting/themes.py:129
+msgid "Do you really wanna remove the theme {} ?"
+msgstr "Do you really wanna remove the theme {} ?"
+
+#: planksetting/windows.py:24 planksetting/windows.py:51
+msgid "PlankSetting"
+msgstr "PlankSetting"
+
+#: planksetting/windows.py:33
+msgid "A stupid application to customize plank dock easily."
+msgstr "A stupid application to customize plank dock easily."
+
+#: planksetting/windows.py:36
+msgid "PlankSetting website"
+msgstr "PlankSetting website"
+
+#: planksetting/windows.py:38
+msgid "GPL v3"
+msgstr "GPL v3"
+
+#: planksetting/windows.py:39
+msgid "translator-credits"
+msgstr "translator-credits"
+
+#: planksetting/windows.py:63
+msgid "Menu"
+msgstr "Menu"
+
+#: planksetting/windows.py:68
+msgid "Translate this Application"
+msgstr "Translate this Application"
+
+#: planksetting/windows.py:72
+msgid "Report a bug"
+msgstr "Report a bug"
+
+#: planksetting/windows.py:76
+msgid "About"
+msgstr "About"
+
+#: planksetting/windows.py:80
+msgid "Exit"
+msgstr "Exit"
+
+#: planksetting/windows.py:86
+msgid "General"
+msgstr "General"
+
+#: planksetting/windows.py:88
+msgid "Group Apps"
+msgstr "Group Apps"

@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Noel Rodríguez Freire <noelrf.ou@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: PlankSetting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-07 01:57+0100\n"
+"PO-Revision-Date: 2017-05-07 01:03+0000\n"
+"Last-Translator: Karim Oulad Chalha <herr.linux88@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/karim/planksetting/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: planksetting.py:28
+msgid "Choose the dock:"
+msgstr "Elija la base:"
+
+#: planksetting/apps.py:82
+msgid "New Group"
+msgstr "Nuevo Grupo"
+
+#: planksetting/apps.py:84
+msgid "Enter the Group name"
+msgstr "Introduzca el nombre del grupo"
+
+#: planksetting/apps.py:120
+msgid "Group of Apps"
+msgstr "Grupo de Aplicaciones"
+
+#: planksetting/apps.py:132
+msgid "Application"
+msgstr "Solicitud"
+
+#: planksetting/apps.py:152
+msgid "Add a Group"
+msgstr "Añadir un grupo"
+
+#: planksetting/apps.py:157
+msgid "Delete a Group"
+msgstr "Borrar un grupo"
+
+#: planksetting/apps.py:162
+msgid "Add a Application"
+msgstr "Agregar una aplicación"
+
+#: planksetting/apps.py:167
+msgid "Delete a Application"
+msgstr "Eliminar una aplicación"
+
+#: planksetting/general.py:16
+msgid "Show windows"
+msgstr "Mostrar ventanas"
+
+#: planksetting/general.py:17
+msgid "Show only windows of the current workspace."
+msgstr "Mostrar sólo las ventanas del espacio de trabajo actual."
+
+#: planksetting/general.py:25
+msgid "Icon size"
+msgstr ""
+
+#: planksetting/general.py:26
+msgid "The size of dock icons (in pixels)."
+msgstr "El tamaño de los iconos del panel (en píxeles)."
+
+#: planksetting/general.py:37
+msgid "Display mode"
+msgstr "Modo de visualización"
+
+#: planksetting/general.py:38
+msgid "The display of the dock."
+msgstr "La pantalla de ajustes."
+
+#: planksetting/general.py:39
+msgid "Don't hide"
+msgstr "No ocultar"
+
+#: planksetting/general.py:39 planksetting/general.py:301
+msgid "Intelligently hide"
+msgstr "Ocultar de forma inteligente"
+
+#: planksetting/general.py:40 planksetting/general.py:303
+msgid "Auto hide"
+msgstr "Ocultar automáticamente"
+
+#: planksetting/general.py:40
+msgid "Dodge active"
+msgstr ""
+
+#: planksetting/general.py:40 planksetting/general.py:307
+msgid "Dodge maximized"
+msgstr ""
+
+#: planksetting/general.py:40 planksetting/general.py:309
+msgid "Dodge window"
+msgstr ""
+
+#: planksetting/general.py:44
+msgid "Waiting time"
+msgstr "Tiempo de espera"
+
+#: planksetting/general.py:46
+msgid "Time (in ms) to wait before unhiding the dock."
+msgstr "Tiempo (en ms) debe esperar antes de hacer visible el panel."
+
+#: planksetting/general.py:55
+msgid "Dock hide delay"
+msgstr ""
+
+#: planksetting/general.py:57
+msgid "Length of the delay before hiding the dock, in milliseconds."
+msgstr ""
+
+#: planksetting/general.py:66
+msgid "The monitor number for the dock."
+msgstr "El número de monitor para el panel."
+
+#: planksetting/general.py:77
+msgid "Position"
+msgstr "Posición"
+
+#: planksetting/general.py:79
+msgid "The position for the dock on the monitor."
+msgstr "La posición del panel en el monitor."
+
+#: planksetting/general.py:80 planksetting/general.py:313
+msgid "Left"
+msgstr "Izquierda"
+
+#: planksetting/general.py:80 planksetting/general.py:315
+msgid "Right"
+msgstr "Derecha"
+
+#: planksetting/general.py:80 planksetting/general.py:317
+msgid "Top"
+msgstr "Parte Superior"
+
+#: planksetting/general.py:80 planksetting/general.py:319
+msgid "Bottom"
+msgstr "Parte inferior"
+
+#: planksetting/general.py:83
+msgid "Offset"
+msgstr "Desplazamiento"
+
+#: planksetting/general.py:85
+msgid "The dock's position offset from center (in percent)."
+msgstr "Desplazamiento de la posición del panel hacia el centro (en porcentaje)"
+
+#: planksetting/general.py:96
+msgid "Alignment"
+msgstr "Alineación"
+
+#: planksetting/general.py:98
+msgid "The alignment for the dock on the monitor's edge."
+msgstr "La alineación del panel en el borde del monitor."
+
+#: planksetting/general.py:100 planksetting/general.py:109
+#: planksetting/general.py:323
+msgid "Panel mode"
+msgstr "Modo del panel"
+
+#: planksetting/general.py:100 planksetting/general.py:109
+#: planksetting/general.py:325
+msgid "Right aligned"
+msgstr "Alineado a la derecha"
+
+#: planksetting/general.py:101 planksetting/general.py:110
+#: planksetting/general.py:327
+msgid "Left aligned"
+msgstr "Alineado a la izquierda"
+
+#: planksetting/general.py:101 planksetting/general.py:110
+#: planksetting/general.py:329
+msgid "Centered"
+msgstr "Centrado"
+
+#: planksetting/general.py:105
+msgid "Item alignment"
+msgstr "Alineación de elementos"
+
+#: planksetting/general.py:107
+msgid "The alignment of the items in this dock."
+msgstr "La alineación de los elementos en este panel."
+
+#: planksetting/general.py:113
+msgid "Disable Drag'N'Drop"
+msgstr ""
+
+#: planksetting/general.py:115
+msgid "Prevent drag'n'drop actions and lock items on the dock."
+msgstr "Evitar arrastrar y soltar las acciones y bloquear elementos en el panel."
+
+#: planksetting/general.py:123
+msgid "Auto pin"
+msgstr ""
+
+#: planksetting/general.py:124
+msgid "Automatically pin an application if it seems useful to do"
+msgstr ""
+
+#: planksetting/general.py:132
+msgid "Only show pinned applications"
+msgstr ""
+
+#: planksetting/general.py:134
+msgid ""
+"If true, only show pinned applications. Useful for running more than one "
+"dock."
+msgstr ""
+
+#: planksetting/general.py:142
+msgid "Pressure Reveal"
+msgstr ""
+
+#: planksetting/general.py:144
+msgid ""
+"If true, use pressure-based revealing of the dock if the input device "
+"supports it."
+msgstr ""
+
+#: planksetting/general.py:152
+msgid "Show the item for the dock itself"
+msgstr ""
+
+#: planksetting/general.py:153
+msgid "If true, show the Plank dock item."
+msgstr ""
+
+#: planksetting/general.py:161
+msgid "Show tooltips when items are hovered"
+msgstr ""
+
+#: planksetting/general.py:162
+msgid ""
+"If true, tooltips will be shown when dock items are hovered with the cursor."
+msgstr ""
+
+#: planksetting/general.py:170
+msgid "Zoom dock items when hovered"
+msgstr ""
+
+#: planksetting/general.py:171
+msgid "If true, zoom dock items when hovered with the cursor."
+msgstr ""
+
+#: planksetting/general.py:180
+msgid "Icon zoom percentage"
+msgstr ""
+
+#: planksetting/general.py:181
+msgid "The amount to zoom dock items, in percent."
+msgstr ""
+
+#: planksetting/general.py:299
+msgid "Don't Hide"
+msgstr ""
+
+#: planksetting/general.py:305
+msgid "Dodge"
+msgstr "Esquivar"
+
+#: planksetting/themes.py:23 planksetting/windows.py:87
+msgid "Themes"
+msgstr "Temas"
+
+#: planksetting/themes.py:35
+msgid "Add a theme"
+msgstr "Añadir un tema"
+
+#: planksetting/themes.py:39
+msgid "Remove a theme"
+msgstr "Eliminar un tema"
+
+#: planksetting/themes.py:73
+msgid ""
+"You dont have a UNRAR program\n"
+"Please make sure to install it before!"
+msgstr "Usted no tiene un programa UNRAR\nPor favor, asegúrese de instalarlo antes!"
+
+#: planksetting/themes.py:104
+msgid ""
+"You dont have a UNZIP program\n"
+"Please make sure to install it before!"
+msgstr "Usted no tiene un programa de descompresión UNZIP\nPor favor, asegúrese de instalarlo antes!"
+
+#: planksetting/themes.py:110
+msgid "The theme format is not supported!"
+msgstr "El formato del tema no está soportado!"
+
+#: planksetting/themes.py:129
+msgid "Do you really wanna remove the theme {} ?"
+msgstr "¿Realmente quieres eliminar el tema {}?"
+
+#: planksetting/windows.py:24 planksetting/windows.py:51
+msgid "PlankSetting"
+msgstr "Panel de ajustes"
+
+#: planksetting/windows.py:33
+msgid "A stupid application to customize plank dock easily."
+msgstr "Una aplicación estúpida para personalizar el panel de ajustes fácilmente."
+
+#: planksetting/windows.py:36
+msgid "PlankSetting website"
+msgstr "Sitio web del panel de ajustes"
+
+#: planksetting/windows.py:38
+msgid "GPL v3"
+msgstr "GPL v3"
+
+#: planksetting/windows.py:39
+msgid "translator-credits"
+msgstr "Traductor-créditos"
+
+#: planksetting/windows.py:63
+msgid "Menu"
+msgstr "Menú"
+
+#: planksetting/windows.py:68
+msgid "Translate this Application"
+msgstr "Traducir esta aplicación"
+
+#: planksetting/windows.py:72
+msgid "Report a bug"
+msgstr "Reportar un error"
+
+#: planksetting/windows.py:76
+msgid "About"
+msgstr "Acerca de"
+
+#: planksetting/windows.py:80
+msgid "Exit"
+msgstr "Salir"
+
+#: planksetting/windows.py:86
+msgid "General"
+msgstr "General"
+
+#: planksetting/windows.py:88
+msgid "Group Apps"
+msgstr "Grupo de aplicaciones"
