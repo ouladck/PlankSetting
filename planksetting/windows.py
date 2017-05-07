@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
+import webbrowser
+
 from planksetting import Gtk, GdkPixbuf
+from planksetting import g
+from planksetting.apps import *
 from planksetting.general import *
 from planksetting.themes import *
-from planksetting.apps import *
-from planksetting import g
-import webbrowser
 
 
 class windows():
@@ -27,10 +28,10 @@ class windows():
         about.set_icon(
             GdkPixbuf.Pixbuf
             .new_from_file("/usr/share/pixmaps/planksetting_logo.png"))
-        about.set_version("0.1.3.1")
+        about.set_version("0.1.4.1")
         about.set_comments(
             g("A stupid application to customize plank dock easily."))
-        about.set_copyright("Copyright (c) 2014-2015 Karim Oulad Chalha")
+        about.set_copyright("Copyright (c) 2014-2017 Karim Oulad Chalha")
         about.set_website("http://karim88.github.io/PlankSetting/")
         about.set_website_label(g("PlankSetting website"))
         about.set_authors(["Karim Oulad Chalha"])
