@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Moo, 2014-2015
+# Moo, 2014-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: PlankSetting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-07 01:57+0100\n"
-"PO-Revision-Date: 2017-05-07 01:03+0000\n"
-"Last-Translator: Karim Oulad Chalha <herr.linux88@gmail.com>\n"
+"PO-Revision-Date: 2017-05-07 20:33+0000\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/karim/planksetting/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +64,7 @@ msgstr "Rodyti tik esamo darbalaukio langus."
 
 #: planksetting/general.py:25
 msgid "Icon size"
-msgstr ""
+msgstr "Piktogramų dydis"
 
 #: planksetting/general.py:26
 msgid "The size of dock icons (in pixels)."
@@ -92,15 +92,15 @@ msgstr "Automatiškai slėpti"
 
 #: planksetting/general.py:40
 msgid "Dodge active"
-msgstr ""
+msgstr "Vengti aktyvių langų"
 
 #: planksetting/general.py:40 planksetting/general.py:307
 msgid "Dodge maximized"
-msgstr ""
+msgstr "Vengti išskleistų langų"
 
 #: planksetting/general.py:40 planksetting/general.py:309
 msgid "Dodge window"
-msgstr ""
+msgstr "Vengti lango"
 
 #: planksetting/general.py:44
 msgid "Waiting time"
@@ -112,11 +112,11 @@ msgstr "Laikas (ms) prieš rodant skydelį. "
 
 #: planksetting/general.py:55
 msgid "Dock hide delay"
-msgstr ""
+msgstr "Skydelio slėpimo delsa"
 
 #: planksetting/general.py:57
 msgid "Length of the delay before hiding the dock, in milliseconds."
-msgstr ""
+msgstr "Delsos trukmė, milisekundėmis, prieš slepiant skydelį."
 
 #: planksetting/general.py:66
 msgid "The monitor number for the dock."
@@ -192,7 +192,7 @@ msgstr "Skydelio elementų lygiavimas."
 
 #: planksetting/general.py:113
 msgid "Disable Drag'N'Drop"
-msgstr ""
+msgstr "Išjungti vilkimą"
 
 #: planksetting/general.py:115
 msgid "Prevent drag'n'drop actions and lock items on the dock."
@@ -200,68 +200,68 @@ msgstr "Neleisti vilkimo veiksmų ir užrakinti skydelio elementus."
 
 #: planksetting/general.py:123
 msgid "Auto pin"
-msgstr ""
+msgstr "Automatiškai prisegti"
 
 #: planksetting/general.py:124
 msgid "Automatically pin an application if it seems useful to do"
-msgstr ""
+msgstr "Automatiškai prisegti programą, jeigu ji atrodo jums naudinga"
 
 #: planksetting/general.py:132
 msgid "Only show pinned applications"
-msgstr ""
+msgstr "Rodyti tik prisegtas programas"
 
 #: planksetting/general.py:134
 msgid ""
 "If true, only show pinned applications. Useful for running more than one "
 "dock."
-msgstr ""
+msgstr "Jei teigiama, rodyti tik prisegtas programas. Naudinga, naudojant daugiau nei vieną skydelį."
 
 #: planksetting/general.py:142
 msgid "Pressure Reveal"
-msgstr ""
+msgstr "Rodyti po spaudimo"
 
 #: planksetting/general.py:144
 msgid ""
 "If true, use pressure-based revealing of the dock if the input device "
 "supports it."
-msgstr ""
+msgstr "Jei teigiama, rodyti skydelį po spaudimo, jei įvesties įrenginys tai palaiko."
 
 #: planksetting/general.py:152
 msgid "Show the item for the dock itself"
-msgstr ""
+msgstr "Rodyti skydelio elementą"
 
 #: planksetting/general.py:153
 msgid "If true, show the Plank dock item."
-msgstr ""
+msgstr "Jei teigiama, rodyti Plank skydelio elementą."
 
 #: planksetting/general.py:161
 msgid "Show tooltips when items are hovered"
-msgstr ""
+msgstr "Rodyti paaiškinimus, užvedus pelę ant elementų"
 
 #: planksetting/general.py:162
 msgid ""
 "If true, tooltips will be shown when dock items are hovered with the cursor."
-msgstr ""
+msgstr "Jei teigiama, užvedus pelės žymeklį ant skydelio elementų, bus rodomi paaiškinimai."
 
 #: planksetting/general.py:170
 msgid "Zoom dock items when hovered"
-msgstr ""
+msgstr "Didinti skydelio elementus, užvedus pelę"
 
 #: planksetting/general.py:171
 msgid "If true, zoom dock items when hovered with the cursor."
-msgstr ""
+msgstr "Jei teigiama, užvedus pelės žymeklį ant skydelio elementų, juos didinti."
 
 #: planksetting/general.py:180
 msgid "Icon zoom percentage"
-msgstr ""
+msgstr "Piktogramų didinimo procentinė dalis"
 
 #: planksetting/general.py:181
 msgid "The amount to zoom dock items, in percent."
-msgstr ""
+msgstr "Kiekis, procentais, kiek didinti skydelio elementus."
 
 #: planksetting/general.py:299
 msgid "Don't Hide"
-msgstr ""
+msgstr "Neslėpti"
 
 #: planksetting/general.py:305
 msgid "Dodge"
