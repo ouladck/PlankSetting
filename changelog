@@ -1,5 +1,10 @@
+[0.1.5]
+- Adding `Ukrainian` language
+- updated `Russian` ans `Polish` languages
+
+
 [0.1.4]
-- Gsettings insteadof setting file.
+- Gsettings instead of setting file.
 -
 
 [0.1.3.1]

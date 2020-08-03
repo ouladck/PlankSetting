@@ -7,9 +7,12 @@ from planksetting import g
 from planksetting.apps import *
 from planksetting.general import *
 from planksetting.themes import *
+import os
 
 
 class windows():
+    logo = "/usr/share/pixmaps/planksetting.png"
+    icon = "/usr/share/pixmaps/planksetting_logo.png"
     def destroy(self, widget):
         Gtk.main_quit()
 
@@ -24,15 +27,15 @@ class windows():
         about.set_program_name(g("PlankSetting"))
         about.set_logo(
             GdkPixbuf
-            .Pixbuf.new_from_file("/usr/share/pixmaps/planksetting.png"))
+            .Pixbuf.new_from_file(self.logo if os.path.isfile(self.logo) else "../pixmaps/planksetting.png"))
         about.set_icon(
             GdkPixbuf.Pixbuf
-            .new_from_file("/usr/share/pixmaps/planksetting_logo.png"))
-        about.set_version("0.1.4.1")
+            .new_from_file(self.icon if os.path.isfile(self.icon) else "../pixmaps/planksetting_logo.png"))
+        about.set_version("0.1.5")
         about.set_comments(
             g("A stupid application to customize plank dock easily."))
         about.set_copyright("Copyright (c) 2014-2017 Karim Oulad Chalha")
-        about.set_website("http://karim88.github.io/PlankSetting/")
+        about.set_website("http://planksetting.github.io/")
         about.set_website_label(g("PlankSetting website"))
         about.set_authors(["Karim Oulad Chalha"])
         about.set_license(g("GPL v3"))
