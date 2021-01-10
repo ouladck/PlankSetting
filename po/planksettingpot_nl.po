@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: PlankSetting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-07 01:57+0100\n"
+"PO-Revision-Date: 2021-01-10 14:41+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Language-Team: Dutch <vistausss@outlook.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: planksetting.py:28
+msgid "Choose the dock:"
+msgstr "Kies het dock:"
+
+#: planksetting/apps.py:82
+msgid "New Group"
+msgstr "Nieuwe groep"
+
+#: planksetting/apps.py:84
+msgid "Enter the Group name"
+msgstr "Geef de groep een naam"
+
+#: planksetting/apps.py:120
+msgid "Group of Apps"
+msgstr "Toepassingsgroep"
+
+#: planksetting/apps.py:132
+msgid "Application"
+msgstr "Toepassing"
+
+#: planksetting/apps.py:152
+msgid "Add a Group"
+msgstr "Groep toevoegen"
+
+#: planksetting/apps.py:157
+msgid "Delete a Group"
+msgstr "Groep verwijderen"
+
+#: planksetting/apps.py:162
+msgid "Add a Application"
+msgstr "Toepassing toevoegen"
+
+#: planksetting/apps.py:167
+msgid "Delete a Application"
+msgstr "Toepassing verwijderen"
+
+#: planksetting/general.py:16
+msgid "Show windows"
+msgstr "Vensters tonen"
+
+#: planksetting/general.py:17
+msgid "Show only windows of the current workspace."
+msgstr "Toon alleen vensters van het huidige werkblad."
+
+#: planksetting/general.py:25
+msgid "Icon size"
+msgstr "Pictogramgrootte"
+
+#: planksetting/general.py:26
+msgid "The size of dock icons (in pixels)."
+msgstr "De grootte van dockpictogrammen (in pixels)."
+
+#: planksetting/general.py:37
+msgid "Display mode"
+msgstr "Weergavemodus"
+
+#: planksetting/general.py:38
+msgid "The display of the dock."
+msgstr "Hoe het dock eruit moet zien."
+
+#: planksetting/general.py:39
+msgid "Don't hide"
+msgstr "Niet verbergen"
+
+#: planksetting/general.py:39 planksetting/general.py:301
+msgid "Intelligently hide"
+msgstr "Slim verbergen"
+
+#: planksetting/general.py:40 planksetting/general.py:303
+msgid "Auto hide"
+msgstr "Automatisch verbergen"
+
+#: planksetting/general.py:40
+msgid "Dodge active"
+msgstr "Actieve vensters ontwijken"
+
+#: planksetting/general.py:40 planksetting/general.py:307
+msgid "Dodge maximized"
+msgstr "Gemaximaliseerde vensters ontwijken"
+
+#: planksetting/general.py:40 planksetting/general.py:309
+msgid "Dodge window"
+msgstr "Vensters ontwijken"
+
+#: planksetting/general.py:44
+msgid "Waiting time"
+msgstr "Wachttijd"
+
+#: planksetting/general.py:46
+msgid "Time (in ms) to wait before unhiding the dock."
+msgstr "De tijd (in ms) voordat het dock weer wordt getoond."
+
+#: planksetting/general.py:55
+msgid "Dock hide delay"
+msgstr "Verbergvertraging"
+
+#: planksetting/general.py:57
+msgid "Length of the delay before hiding the dock, in milliseconds."
+msgstr ""
+"De tijd die moet worden gewacht voordat het dock wordt verborgen, in milliseconden."
+
+#: planksetting/general.py:66
+msgid "The monitor number for the dock."
+msgstr "Het beeldschermnummer waarop het dock moet worden getoond."
+
+#: planksetting/general.py:77
+msgid "Position"
+msgstr "Positie"
+
+#: planksetting/general.py:79
+msgid "The position for the dock on the monitor."
+msgstr "De positie van het dock op het beeldscherm."
+
+#: planksetting/general.py:80 planksetting/general.py:313
+msgid "Left"
+msgstr "Links"
+
+#: planksetting/general.py:80 planksetting/general.py:315
+msgid "Right"
+msgstr "Rechts"
+
+#: planksetting/general.py:80 planksetting/general.py:317
+msgid "Top"
+msgstr "Bovenaan"
+
+#: planksetting/general.py:80 planksetting/general.py:319
+msgid "Bottom"
+msgstr "Onderaan"
+
+#: planksetting/general.py:83
+msgid "Offset"
+msgstr "Compensatie"
+
+#: planksetting/general.py:85
+msgid "The dock's position offset from center (in percent)."
+msgstr "De dock-positiecompensatie vanaf het midden (in procenten)."
+
+#: planksetting/general.py:96
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: planksetting/general.py:98
+msgid "The alignment for the dock on the monitor's edge."
+msgstr "De uitlijning van het dock op de beeldschermrand."
+
+#: planksetting/general.py:100 planksetting/general.py:109 planksetting/general.py:323
+msgid "Panel mode"
+msgstr "Paneelmodus"
+
+#: planksetting/general.py:100 planksetting/general.py:109 planksetting/general.py:325
+msgid "Right aligned"
+msgstr "Rechts uitgelijnd"
+
+#: planksetting/general.py:101 planksetting/general.py:110 planksetting/general.py:327
+msgid "Left aligned"
+msgstr "Links uitgelijnd"
+
+#: planksetting/general.py:101 planksetting/general.py:110 planksetting/general.py:329
+msgid "Centered"
+msgstr "Gecentreerd"
+
+#: planksetting/general.py:105
+msgid "Item alignment"
+msgstr "Itemuitlijning"
+
+#: planksetting/general.py:107
+msgid "The alignment of the items in this dock."
+msgstr "De uitlijning van dockitems."
+
+#: planksetting/general.py:113
+msgid "Disable Drag'N'Drop"
+msgstr "Slepen-en-neerzetten uitschakelen"
+
+#: planksetting/general.py:115
+msgid "Prevent drag'n'drop actions and lock items on the dock."
+msgstr "Voorkom sleepacties en vergrendel items op het dock."
+
+#: planksetting/general.py:123
+msgid "Auto pin"
+msgstr "Automatisch vastmaken"
+
+#: planksetting/general.py:124
+msgid "Automatically pin an application if it seems useful to do"
+msgstr "Maak een toepassing automatisch vast als dat nuttig lijkt te zijn."
+
+#: planksetting/general.py:132
+msgid "Only show pinned applications"
+msgstr "Alleen vastgemaakte toepassingen tonen"
+
+#: planksetting/general.py:134
+msgid "If true, only show pinned applications. Useful for running more than one dock."
+msgstr ""
+"Schakel in om alleen vastgemaakte toepassingen te tonen. Dit is handig als je meer dan "
+"één dock gebruikt."
+
+#: planksetting/general.py:142
+msgid "Pressure Reveal"
+msgstr "Weergavedruk"
+
+#: planksetting/general.py:144
+msgid "If true, use pressure-based revealing of the dock if the input device supports it."
+msgstr ""
+"Schakel in om het dock te tonen op basis van druk (als het invoerapparaat dit "
+"ondersteunt)."
+
+#: planksetting/general.py:152
+msgid "Show the item for the dock itself"
+msgstr "Dockitem tonen"
+
+#: planksetting/general.py:153
+msgid "If true, show the Plank dock item."
+msgstr "Schakel in om het Plank-dockitem te tonen."
+
+#: planksetting/general.py:161
+msgid "Show tooltips when items are hovered"
+msgstr "Hulpballonnen tonen bij zwevende cursor"
+
+#: planksetting/general.py:162
+msgid "If true, tooltips will be shown when dock items are hovered with the cursor."
+msgstr "Schakel in om hulpballonnen te tonen als je de cursor op een item plaatst."
+
+#: planksetting/general.py:170
+msgid "Zoom dock items when hovered"
+msgstr "Dockitems zoomen bij zwevende cursor"
+
+#: planksetting/general.py:171
+msgid "If true, zoom dock items when hovered with the cursor."
+msgstr "Schakel in om dockitems te vergroten als je de cursor op een item plaatst."
+
+#: planksetting/general.py:180
+msgid "Icon zoom percentage"
+msgstr "Zoompercentage"
+
+#: planksetting/general.py:181
+msgid "The amount to zoom dock items, in percent."
+msgstr "Hoe veel dockitems moet worden vergroot, in procenten."
+
+#: planksetting/general.py:299
+msgid "Don't Hide"
+msgstr "Niet verbergen"
+
+#: planksetting/general.py:305
+msgid "Dodge"
+msgstr "Ontwijken"
+
+#: planksetting/themes.py:23 planksetting/windows.py:87
+msgid "Themes"
+msgstr "Thema's"
+
+#: planksetting/themes.py:35
+msgid "Add a theme"
+msgstr "Thema toevoegen"
+
+#: planksetting/themes.py:39
+msgid "Remove a theme"
+msgstr "Thema verwijderen"
+
+#: planksetting/themes.py:73
+msgid ""
+"You dont have a UNRAR program\n"
+"Please make sure to install it before!"
+msgstr ""
+"Er is geen unrar-toepassing aangetroffen.\n"
+"Installeer deze en probeer het opnieuw."
+
+#: planksetting/themes.py:104
+msgid ""
+"You dont have a UNZIP program\n"
+"Please make sure to install it before!"
+msgstr ""
+"Er is geen unzip-toepassing aangetroffen.\n"
+"Installeer deze en probeer het opnieuw."
+
+#: planksetting/themes.py:110
+msgid "The theme format is not supported!"
+msgstr "Dit themaformaat wordt niet ondersteund."
+
+#: planksetting/themes.py:129
+msgid "Do you really wanna remove the theme {} ?"
+msgstr "Weet je zeker dat je {} wilt verwijderen?"
+
+#: planksetting/windows.py:24 planksetting/windows.py:51
+msgid "PlankSetting"
+msgstr "Plankinstellingen"
+
+#: planksetting/windows.py:33
+msgid "A stupid application to customize plank dock easily."
+msgstr "Een doodeenvoudige toepassing om het Plank-dock in te stellen."
+
+#: planksetting/windows.py:36
+msgid "PlankSetting website"
+msgstr "Plankinstellingen-website"
+
+#: planksetting/windows.py:38
+msgid "GPL v3"
+msgstr "GPL v3"
+
+#: planksetting/windows.py:39
+msgid "translator-credits"
+msgstr "Heimen Stoffels"
+
+#: planksetting/windows.py:63
+msgid "Menu"
+msgstr "Menu"
+
+#: planksetting/windows.py:68
+msgid "Translate this Application"
+msgstr "Toepassing vertalen"
+
+#: planksetting/windows.py:72
+msgid "Report a bug"
+msgstr "Bug melden"
+
+#: planksetting/windows.py:76
+msgid "About"
+msgstr "Over"
+
+#: planksetting/windows.py:80
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: planksetting/windows.py:86
+msgid "General"
+msgstr "Algemeen"
+
+#: planksetting/windows.py:88
+msgid "Group Apps"
+msgstr "Toepassingsgroep"
